@@ -2,9 +2,9 @@
 
 > **AI-powered B2B Textile Marketplace**
 
-TEXVERSE Professional is a full-stack B2B textile commerce platform designed to connect **buyers, suppliers, administrators, and logistics operations** in a unified marketplace.
+TEXVERSE Professional is a full-stack B2B textile commerce platform designed to connect **buyers, suppliers, administrators, and logistics operations** through a unified digital marketplace.
 
-The platform provides textile product discovery, supplier management, product verification, order management, payment workflows, shipment tracking, AI-powered procurement assistance, support services, and role-based dashboards.
+The platform provides textile product discovery, supplier management, product verification, order management, payment workflows, shipment tracking, AI-powered procurement assistance, support services, notifications, and secure role-based dashboards.
 
 ---
 
@@ -14,11 +14,11 @@ The platform provides textile product discovery, supplier management, product ve
 
 * JWT-based authentication
 * User registration and login
-* Protected routes
+* Protected frontend routes
 * Role-based access control
 * Buyer, Supplier, Admin, and Shipping roles
 * Authenticated user profile via `/auth/me`
-* Automatic token handling on the frontend
+* Automatic JWT token handling
 * Unauthorized-session handling
 
 ### 🛒 Buyer Marketplace
@@ -30,8 +30,8 @@ The platform provides textile product discovery, supplier management, product ve
 * Add products to cart
 * Create orders
 * View personal orders
-* Order details
-* Payment status
+* View order details
+* Payment status tracking
 * Shipment tracking
 * Delivery information
 * Supplier and product information
@@ -43,10 +43,11 @@ The platform provides textile product discovery, supplier management, product ve
 * Supplier dashboard
 * Product CRUD operations
 * Add, update, and delete products
-* Product categories and subcategories
+* Category and subcategory management
 * Product image upload
 * Product image deletion
-* Stock and MOQ management
+* Stock management
+* MOQ management
 * Supplier order management
 * Order status updates
 * Supplier-side workflows
@@ -62,7 +63,8 @@ The platform provides textile product discovery, supplier management, product ve
 * Shipment management
 * Negotiation management
 * Support ticket management
-* Platform overview and operational monitoring
+* Platform overview
+* Operational monitoring
 
 ### 🚚 Shipping & Logistics
 
@@ -128,7 +130,7 @@ The AI layer is integrated with the marketplace backend and can be extended with
 * React
 * Vite
 * JavaScript
-* Modern responsive UI
+* Responsive UI
 * Browser Local Storage
 * REST API integration
 
@@ -170,6 +172,7 @@ TEXVERSE/
 │   └── requirements.txt
 │
 ├── public/
+│
 ├── src/
 │   ├── components/
 │   ├── pages/
@@ -181,30 +184,28 @@ TEXVERSE/
 ├── package.json
 ├── vite.config.js
 └── README.md
+```
+
 ---
 
 # ⚙️ Local Development
 
-## 1. Clone the repository
+## 1. Clone the Repository
 
 ```bash
- git clone https://github.com/BhanuStackDev/TEXVERSE.git
+git clone https://github.com/BhanuStackDev/TEXVERSE.git
 cd TEXVERSE
 ```
 
-## 2. Install frontend dependencies
+## 2. Install Frontend Dependencies
 
 ```bash
 npm install
 ```
 
-## 3. Configure frontend environment
+## 3. Configure Frontend Environment
 
-Create:
-
-```text
-.env
-```
+Create a `.env` file in the project root.
 
 Example:
 
@@ -212,7 +213,7 @@ Example:
 VITE_API_URL=http://localhost:8000
 ```
 
-## 4. Configure backend
+## 4. Configure Backend Environment
 
 Move into the backend directory:
 
@@ -220,11 +221,7 @@ Move into the backend directory:
 cd backend
 ```
 
-Create:
-
-```text
-.env
-```
+Create a `.env` file.
 
 Example configuration:
 
@@ -248,7 +245,7 @@ EMAIL_FROM=
 FRONTEND_URL=http://localhost:5173
 ```
 
-> Never commit real secrets, passwords, API keys, SMTP credentials, or production database credentials to Git.
+> Never commit real secrets, passwords, API keys, SMTP credentials, or production database credentials to GitHub.
 
 ---
 
@@ -290,11 +287,11 @@ http://localhost:5173
 
 ---
 
-# 🔐 Security
+# 🔐 Security & Role-Based Access
 
-TEXVERSE follows a role-based architecture.
+TEXVERSE follows a role-based application architecture.
 
-### Buyer
+## Buyer
 
 Can:
 
@@ -302,12 +299,12 @@ Can:
 * Create orders
 * View own orders
 * Track shipments
-* Make payment through configured workflow
-* Create/view negotiations
+* Make payments through the configured workflow
+* Create and view negotiations
 * Use AI procurement assistance
 * Create support tickets
 
-### Supplier
+## Supplier
 
 Can:
 
@@ -317,7 +314,7 @@ Can:
 * View supplier orders
 * Update order status
 
-### Admin
+## Admin
 
 Can:
 
@@ -329,7 +326,7 @@ Can:
 * Manage negotiations
 * Manage support operations
 
-### Shipping
+## Shipping
 
 Can:
 
@@ -396,13 +393,13 @@ RAZORPAY_KEY_ID=<YOUR_KEY>
 RAZORPAY_KEY_SECRET=<YOUR_SECRET>
 ```
 
-Do not commit these credentials to GitHub.
+Do not commit payment credentials to GitHub.
 
 ---
 
 # 📧 Email Configuration
 
-The backend includes SMTP configuration support.
+The backend supports SMTP-based email configuration.
 
 Example:
 
@@ -420,7 +417,7 @@ Production email verification requires valid SMTP credentials and production con
 
 # 🧪 Build Verification
 
-Frontend production build:
+Build the frontend for production:
 
 ```bash
 npm run build
@@ -511,7 +508,7 @@ Recommended production architecture:
         └───────────────┘        └────────────────┘
 ```
 
-Typical deployment options:
+### Typical Deployment Options
 
 * Frontend → Vercel
 * Backend → Render / Railway
@@ -545,7 +542,7 @@ Before production deployment:
 
 # 🔒 Environment & Secrets
 
-The following files should **never** be committed:
+The following files and directories should never be committed:
 
 ```text
 .env
@@ -573,7 +570,7 @@ License terms can be added before public commercial distribution.
 
 **Full Stack Developer**
 
-Developed by Bhanuday Urmaliya • Full Stack Developer
+> Developed by Bhanuday Urmaliya • Full Stack Developer
 
 ---
 
