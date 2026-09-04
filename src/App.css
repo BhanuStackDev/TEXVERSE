@@ -1,0 +1,31 @@
+.language-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 10px;
+  background: rgba(15, 23, 42, 0.8);
+  color: #cbd5e1;
+}
+
+.language-select {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  max-width: 120px;
+}
+
+.language-select option {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+.mobile-language-selector {
+  margin: 10px 0;
+  width: fit-content;
+}

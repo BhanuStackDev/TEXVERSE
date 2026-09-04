@@ -1,0 +1,480 @@
+﻿product_id,product_name,category,subcategory,supplier,color,price_per_meter_inr,moq_meters,stock_meters,verified,available,image_file
+1,Premium White Cotton Poplin,Cotton,Cotton Poplin,Sharma Textiles,White,277,200,1200,True,True,texverse-001.jpg
+2,Classic Black Cotton Poplin,Cotton,Cotton Poplin,Global Denim Mills,Black,294,300,1800,True,True,texverse-002.jpg
+3,Export Quality Navy Cotton Twill,Cotton,Cotton Twill,Royal Silk House,Navy,311,500,2500,True,True,texverse-003.jpg
+4,High Density Royal Blue Cotton Twill,Cotton,Cotton Twill,Natural Linen Mills,Royal Blue,328,750,3200,True,True,texverse-004.jpg
+5,Soft Touch Sky Blue Cotton Voile,Cotton,Cotton Voile,Modern Fiber Industries,Sky Blue,345,1000,5000,True,True,texverse-005.jpg
+6,Performance Maroon Cotton Voile,Cotton,Cotton Voile,Tex Custom House,Maroon,362,200,1200,True,True,texverse-006.jpg
+7,Professional Wine Cotton Cambric,Cotton,Cotton Cambric,Sunrise Fabrics,Wine,379,300,1800,True,True,texverse-007.jpg
+8,Durable Bottle Green Cotton Cambric,Cotton,Cotton Cambric,Apex Textile Works,Bottle Green,396,500,2500,True,True,texverse-008.jpg
+9,Signature Olive Cotton Canvas,Cotton,Cotton Canvas,Bharat Weaves,Olive,413,750,3200,True,True,texverse-009.jpg
+10,Commercial Beige Cotton Canvas,Cotton,Cotton Canvas,Prime Looms,Beige,430,1000,5000,True,True,texverse-010.jpg
+11,Premium Cream Cotton Muslin,Cotton,Cotton Muslin,East India Textiles,Cream,267,200,1200,True,True,texverse-011.jpg
+12,Classic Grey Cotton Muslin,Cotton,Cotton Muslin,Arvind Fabric Hub,Grey,284,300,1800,True,True,texverse-012.jpg
+13,Export Quality Charcoal Cotton Satin,Cotton,Cotton Satin,Metro Textile Supply,Charcoal,301,500,2500,True,True,texverse-013.jpg
+14,High Density Mustard Cotton Satin,Cotton,Cotton Satin,Vardhman Fabrics,Mustard,318,750,3200,True,True,texverse-014.jpg
+15,Soft Touch Rust Organic Cotton,Cotton,Organic Cotton,Sapphire Textile Mills,Rust,335,1000,5000,True,True,texverse-015.jpg
+16,Performance Pink Organic Cotton,Cotton,Organic Cotton,Sharma Textiles,Pink,352,200,1200,True,True,texverse-016.jpg
+17,Professional Ivory Combed Cotton,Cotton,Combed Cotton,Global Denim Mills,Ivory,369,300,1800,True,True,texverse-017.jpg
+18,Durable Teal Combed Cotton,Cotton,Combed Cotton,Royal Silk House,Teal,386,500,2500,True,True,texverse-018.jpg
+19,Signature Brown Cotton Jersey,Cotton,Cotton Jersey,Natural Linen Mills,Brown,403,750,3200,True,True,texverse-019.jpg
+20,Commercial Natural Cotton Jersey,Cotton,Cotton Jersey,Modern Fiber Industries,Natural,420,1000,5000,True,True,texverse-020.jpg
+21,Premium White Stretch Denim,Denim,Stretch Denim,Tex Custom House,White,657,200,1200,True,True,texverse-021.jpg
+22,Classic Black Stretch Denim,Denim,Stretch Denim,Sunrise Fabrics,Black,494,300,1800,True,True,texverse-022.jpg
+23,Export Quality Navy Rigid Denim,Denim,Rigid Denim,Apex Textile Works,Navy,511,500,2500,True,True,texverse-023.jpg
+24,High Density Royal Blue Rigid Denim,Denim,Rigid Denim,Bharat Weaves,Royal Blue,528,750,3200,True,True,texverse-024.jpg
+25,Soft Touch Sky Blue Raw Denim,Denim,Raw Denim,Prime Looms,Sky Blue,545,1000,5000,True,True,texverse-025.jpg
+26,Performance Maroon Raw Denim,Denim,Raw Denim,East India Textiles,Maroon,562,200,1200,True,True,texverse-026.jpg
+27,Professional Wine Washed Denim,Denim,Washed Denim,Arvind Fabric Hub,Wine,579,300,1800,True,True,texverse-027.jpg
+28,Durable Bottle Green Washed Denim,Denim,Washed Denim,Metro Textile Supply,Bottle Green,596,500,2500,True,True,texverse-028.jpg
+29,Signature Olive Selvedge Denim,Denim,Selvedge Denim,Vardhman Fabrics,Olive,613,750,3200,True,True,texverse-029.jpg
+30,Commercial Beige Selvedge Denim,Denim,Selvedge Denim,Sapphire Textile Mills,Beige,630,1000,5000,True,True,texverse-030.jpg
+31,Premium Cream Black Denim,Denim,Black Denim,Sharma Textiles,Cream,647,200,1200,True,True,texverse-031.jpg
+32,Classic Grey Black Denim,Denim,Black Denim,Global Denim Mills,Grey,484,300,1800,True,True,texverse-032.jpg
+33,Export Quality Charcoal Colored Denim,Denim,Colored Denim,Royal Silk House,Charcoal,501,500,2500,True,True,texverse-033.jpg
+34,High Density Mustard Colored Denim,Denim,Colored Denim,Natural Linen Mills,Mustard,518,750,3200,True,True,texverse-034.jpg
+35,Soft Touch Rust Lightweight Denim,Denim,Lightweight Denim,Modern Fiber Industries,Rust,535,1000,5000,True,True,texverse-035.jpg
+36,Performance Pink Lightweight Denim,Denim,Lightweight Denim,Tex Custom House,Pink,552,200,1200,True,True,texverse-036.jpg
+37,Professional Ivory Mulberry Silk,Silk,Mulberry Silk,Sunrise Fabrics,Ivory,1039,300,1800,True,True,texverse-037.jpg
+38,Durable Teal Mulberry Silk,Silk,Mulberry Silk,Apex Textile Works,Teal,1056,500,2500,True,True,texverse-038.jpg
+39,Signature Brown Tussar Silk,Silk,Tussar Silk,Bharat Weaves,Brown,1073,750,3200,True,True,texverse-039.jpg
+40,Commercial Natural Tussar Silk,Silk,Tussar Silk,Prime Looms,Natural,1090,1000,5000,True,True,texverse-040.jpg
+41,Premium White Silk Satin,Silk,Silk Satin,East India Textiles,White,1107,200,1200,True,True,texverse-041.jpg
+42,Classic Black Silk Satin,Silk,Silk Satin,Arvind Fabric Hub,Black,1124,300,1800,True,True,texverse-042.jpg
+43,Export Quality Navy Silk Crepe,Silk,Silk Crepe,Metro Textile Supply,Navy,961,500,2500,True,True,texverse-043.jpg
+44,High Density Royal Blue Silk Crepe,Silk,Silk Crepe,Vardhman Fabrics,Royal Blue,978,750,3200,True,True,texverse-044.jpg
+45,Soft Touch Sky Blue Silk Chiffon,Silk,Silk Chiffon,Sapphire Textile Mills,Sky Blue,995,1000,5000,True,True,texverse-045.jpg
+46,Performance Maroon Silk Chiffon,Silk,Silk Chiffon,Sharma Textiles,Maroon,1012,200,1200,True,True,texverse-046.jpg
+47,Professional Wine Silk Organza,Silk,Silk Organza,Global Denim Mills,Wine,1029,300,1800,True,True,texverse-047.jpg
+48,Durable Bottle Green Silk Organza,Silk,Silk Organza,Royal Silk House,Bottle Green,1046,500,2500,True,True,texverse-048.jpg
+49,Signature Olive Silk Georgette,Silk,Silk Georgette,Natural Linen Mills,Olive,1063,750,3200,True,True,texverse-049.jpg
+50,Commercial Beige Silk Georgette,Silk,Silk Georgette,Modern Fiber Industries,Beige,1080,1000,5000,True,True,texverse-050.jpg
+51,Premium Cream Dupion Silk,Silk,Dupion Silk,Tex Custom House,Cream,1097,200,1200,True,True,texverse-051.jpg
+52,Classic Grey Dupion Silk,Silk,Dupion Silk,Sunrise Fabrics,Grey,1114,300,1800,True,True,texverse-052.jpg
+53,Export Quality Charcoal Pure Linen,Linen,Pure Linen,Apex Textile Works,Charcoal,561,500,2500,True,True,texverse-053.jpg
+54,High Density Mustard Pure Linen,Linen,Pure Linen,Bharat Weaves,Mustard,578,750,3200,True,True,texverse-054.jpg
+55,Soft Touch Rust Linen Blend,Linen,Linen Blend,Prime Looms,Rust,595,1000,5000,True,True,texverse-055.jpg
+56,Performance Pink Linen Blend,Linen,Linen Blend,East India Textiles,Pink,612,200,1200,True,True,texverse-056.jpg
+57,Professional Ivory Linen Canvas,Linen,Linen Canvas,Arvind Fabric Hub,Ivory,629,300,1800,True,True,texverse-057.jpg
+58,Durable Teal Linen Canvas,Linen,Linen Canvas,Metro Textile Supply,Teal,646,500,2500,True,True,texverse-058.jpg
+59,Signature Brown Linen Rayon,Linen,Linen Rayon,Vardhman Fabrics,Brown,663,750,3200,True,True,texverse-059.jpg
+60,Commercial Natural Linen Rayon,Linen,Linen Rayon,Sapphire Textile Mills,Natural,680,1000,5000,True,True,texverse-060.jpg
+61,Premium White Linen Viscose,Linen,Linen Viscose,Sharma Textiles,White,697,200,1200,True,True,texverse-061.jpg
+62,Classic Black Linen Viscose,Linen,Linen Viscose,Global Denim Mills,Black,714,300,1800,True,True,texverse-062.jpg
+63,Export Quality Navy Linen Twill,Linen,Linen Twill,Royal Silk House,Navy,731,500,2500,True,True,texverse-063.jpg
+64,High Density Royal Blue Linen Twill,Linen,Linen Twill,Natural Linen Mills,Royal Blue,568,750,3200,True,True,texverse-064.jpg
+65,Soft Touch Sky Blue Linen Slub,Linen,Linen Slub,Modern Fiber Industries,Sky Blue,585,1000,5000,True,True,texverse-065.jpg
+66,Performance Maroon Linen Slub,Linen,Linen Slub,Tex Custom House,Maroon,602,200,1200,True,True,texverse-066.jpg
+67,Professional Wine Performance Polyester,Polyester,Performance Polyester,Sunrise Fabrics,Wine,279,300,1800,True,True,texverse-067.jpg
+68,Durable Bottle Green Performance Polyester,Polyester,Performance Polyester,Apex Textile Works,Bottle Green,296,500,2500,True,True,texverse-068.jpg
+69,Signature Olive Polyester Crepe,Polyester,Polyester Crepe,Bharat Weaves,Olive,313,750,3200,True,True,texverse-069.jpg
+70,Commercial Beige Polyester Crepe,Polyester,Polyester Crepe,Prime Looms,Beige,330,1000,5000,True,True,texverse-070.jpg
+71,Premium Cream Polyester Satin,Polyester,Polyester Satin,East India Textiles,Cream,347,200,1200,True,True,texverse-071.jpg
+72,Classic Grey Polyester Satin,Polyester,Polyester Satin,Arvind Fabric Hub,Grey,364,300,1800,True,True,texverse-072.jpg
+73,Export Quality Charcoal Polyester Georgette,Polyester,Polyester Georgette,Metro Textile Supply,Charcoal,381,500,2500,True,True,texverse-073.jpg
+74,High Density Mustard Polyester Georgette,Polyester,Polyester Georgette,Vardhman Fabrics,Mustard,398,750,3200,True,True,texverse-074.jpg
+75,Soft Touch Rust Polyester Taffeta,Polyester,Polyester Taffeta,Sapphire Textile Mills,Rust,235,1000,5000,True,True,texverse-075.jpg
+76,Performance Pink Polyester Taffeta,Polyester,Polyester Taffeta,Sharma Textiles,Pink,252,200,1200,True,True,texverse-076.jpg
+77,Professional Ivory Micro Polyester,Polyester,Micro Polyester,Global Denim Mills,Ivory,269,300,1800,True,True,texverse-077.jpg
+78,Durable Teal Micro Polyester,Polyester,Micro Polyester,Royal Silk House,Teal,286,500,2500,True,True,texverse-078.jpg
+79,Signature Brown Polyester Spandex,Polyester,Polyester Spandex,Natural Linen Mills,Brown,303,750,3200,True,True,texverse-079.jpg
+80,Commercial Natural Polyester Spandex,Polyester,Polyester Spandex,Modern Fiber Industries,Natural,320,1000,5000,True,True,texverse-080.jpg
+81,Premium White Rayon Challis,Rayon,Rayon Challis,Tex Custom House,White,407,200,1200,True,True,texverse-081.jpg
+82,Classic Black Rayon Challis,Rayon,Rayon Challis,Sunrise Fabrics,Black,424,300,1800,True,True,texverse-082.jpg
+83,Export Quality Navy Rayon Twill,Rayon,Rayon Twill,Apex Textile Works,Navy,441,500,2500,True,True,texverse-083.jpg
+84,High Density Royal Blue Rayon Twill,Rayon,Rayon Twill,Bharat Weaves,Royal Blue,458,750,3200,True,True,texverse-084.jpg
+85,Soft Touch Sky Blue Rayon Crepe,Rayon,Rayon Crepe,Prime Looms,Sky Blue,295,1000,5000,True,True,texverse-085.jpg
+86,Performance Maroon Rayon Crepe,Rayon,Rayon Crepe,East India Textiles,Maroon,312,200,1200,True,True,texverse-086.jpg
+87,Professional Wine Rayon Viscose,Rayon,Rayon Viscose,Arvind Fabric Hub,Wine,329,300,1800,True,True,texverse-087.jpg
+88,Durable Bottle Green Rayon Viscose,Rayon,Rayon Viscose,Metro Textile Supply,Bottle Green,346,500,2500,True,True,texverse-088.jpg
+89,Signature Olive Rayon Satin,Rayon,Rayon Satin,Vardhman Fabrics,Olive,363,750,3200,True,True,texverse-089.jpg
+90,Commercial Beige Rayon Satin,Rayon,Rayon Satin,Sapphire Textile Mills,Beige,380,1000,5000,True,True,texverse-090.jpg
+91,Premium Cream Rayon Slub,Rayon,Rayon Slub,Sharma Textiles,Cream,397,200,1200,True,True,texverse-091.jpg
+92,Classic Grey Rayon Slub,Rayon,Rayon Slub,Global Denim Mills,Grey,414,300,1800,True,True,texverse-092.jpg
+93,Export Quality Charcoal Viscose Twill,Viscose,Viscose Twill,Royal Silk House,Charcoal,471,500,2500,True,True,texverse-093.jpg
+94,High Density Mustard Viscose Twill,Viscose,Viscose Twill,Natural Linen Mills,Mustard,488,750,3200,True,True,texverse-094.jpg
+95,Soft Touch Rust Viscose Crepe,Viscose,Viscose Crepe,Modern Fiber Industries,Rust,505,1000,5000,True,True,texverse-095.jpg
+96,Performance Pink Viscose Crepe,Viscose,Viscose Crepe,Tex Custom House,Pink,342,200,1200,True,True,texverse-096.jpg
+97,Professional Ivory Viscose Satin,Viscose,Viscose Satin,Sunrise Fabrics,Ivory,359,300,1800,True,True,texverse-097.jpg
+98,Durable Teal Viscose Satin,Viscose,Viscose Satin,Apex Textile Works,Teal,376,500,2500,True,True,texverse-098.jpg
+99,Signature Brown Viscose Georgette,Viscose,Viscose Georgette,Bharat Weaves,Brown,393,750,3200,True,True,texverse-099.jpg
+100,Commercial Natural Viscose Georgette,Viscose,Viscose Georgette,Prime Looms,Natural,410,1000,5000,True,True,texverse-100.jpg
+101,Premium White Viscose Challis,Viscose,Viscose Challis,East India Textiles,White,427,200,1200,True,True,texverse-101.jpg
+102,Classic Black Viscose Challis,Viscose,Viscose Challis,Arvind Fabric Hub,Black,444,300,1800,True,True,texverse-102.jpg
+103,Export Quality Navy Viscose Jacquard,Viscose,Viscose Jacquard,Metro Textile Supply,Navy,461,500,2500,True,True,texverse-103.jpg
+104,High Density Royal Blue Viscose Jacquard,Viscose,Viscose Jacquard,Vardhman Fabrics,Royal Blue,478,750,3200,True,True,texverse-104.jpg
+105,Soft Touch Sky Blue Merino Wool,Wool,Merino Wool,Sapphire Textile Mills,Sky Blue,945,1000,5000,True,True,texverse-105.jpg
+106,Performance Maroon Merino Wool,Wool,Merino Wool,Sharma Textiles,Maroon,782,200,1200,True,True,texverse-106.jpg
+107,Professional Wine Wool Melton,Wool,Wool Melton,Global Denim Mills,Wine,799,300,1800,True,True,texverse-107.jpg
+108,Durable Bottle Green Wool Melton,Wool,Wool Melton,Royal Silk House,Bottle Green,816,500,2500,True,True,texverse-108.jpg
+109,Signature Olive Wool Flannel,Wool,Wool Flannel,Natural Linen Mills,Olive,833,750,3200,True,True,texverse-109.jpg
+110,Commercial Beige Wool Flannel,Wool,Wool Flannel,Modern Fiber Industries,Beige,850,1000,5000,True,True,texverse-110.jpg
+111,Premium Cream Wool Blend,Wool,Wool Blend,Tex Custom House,Cream,867,200,1200,True,True,texverse-111.jpg
+112,Classic Grey Wool Blend,Wool,Wool Blend,Sunrise Fabrics,Grey,884,300,1800,True,True,texverse-112.jpg
+113,Export Quality Charcoal Tropical Wool,Wool,Tropical Wool,Apex Textile Works,Charcoal,901,500,2500,True,True,texverse-113.jpg
+114,High Density Mustard Tropical Wool,Wool,Tropical Wool,Bharat Weaves,Mustard,918,750,3200,True,True,texverse-114.jpg
+115,Soft Touch Rust Wool Crepe,Wool,Wool Crepe,Prime Looms,Rust,935,1000,5000,True,True,texverse-115.jpg
+116,Performance Pink Wool Crepe,Wool,Wool Crepe,East India Textiles,Pink,952,200,1200,True,True,texverse-116.jpg
+117,Professional Ivory Wool Tweed,Wool,Wool Tweed,Arvind Fabric Hub,Ivory,789,300,1800,True,True,texverse-117.jpg
+118,Durable Teal Wool Tweed,Wool,Wool Tweed,Metro Textile Supply,Teal,806,500,2500,True,True,texverse-118.jpg
+119,Signature Brown Single Jersey,Knits,Single Jersey,Vardhman Fabrics,Brown,403,750,3200,True,True,texverse-119.jpg
+120,Commercial Natural Single Jersey,Knits,Single Jersey,Sapphire Textile Mills,Natural,420,1000,5000,True,True,texverse-120.jpg
+121,Premium White Interlock Knit,Knits,Interlock Knit,Sharma Textiles,White,437,200,1200,True,True,texverse-121.jpg
+122,Classic Black Interlock Knit,Knits,Interlock Knit,Global Denim Mills,Black,454,300,1800,True,True,texverse-122.jpg
+123,Export Quality Navy Rib Knit,Knits,Rib Knit,Royal Silk House,Navy,471,500,2500,True,True,texverse-123.jpg
+124,High Density Royal Blue Rib Knit,Knits,Rib Knit,Natural Linen Mills,Royal Blue,488,750,3200,True,True,texverse-124.jpg
+125,Soft Touch Sky Blue Pique Knit,Knits,Pique Knit,Modern Fiber Industries,Sky Blue,505,1000,5000,True,True,texverse-125.jpg
+126,Performance Maroon Pique Knit,Knits,Pique Knit,Tex Custom House,Maroon,522,200,1200,True,True,texverse-126.jpg
+127,Professional Wine French Terry,Knits,French Terry,Sunrise Fabrics,Wine,539,300,1800,True,True,texverse-127.jpg
+128,Durable Bottle Green French Terry,Knits,French Terry,Apex Textile Works,Bottle Green,376,500,2500,True,True,texverse-128.jpg
+129,Signature Olive Fleece Knit,Knits,Fleece Knit,Bharat Weaves,Olive,393,750,3200,True,True,texverse-129.jpg
+130,Commercial Beige Fleece Knit,Knits,Fleece Knit,Prime Looms,Beige,410,1000,5000,True,True,texverse-130.jpg
+131,Premium Cream Ottoman Knit,Knits,Ottoman Knit,East India Textiles,Cream,427,200,1200,True,True,texverse-131.jpg
+132,Classic Grey Ottoman Knit,Knits,Ottoman Knit,Arvind Fabric Hub,Grey,444,300,1800,True,True,texverse-132.jpg
+133,Export Quality Charcoal Scuba Knit,Knits,Scuba Knit,Metro Textile Supply,Charcoal,461,500,2500,True,True,texverse-133.jpg
+134,High Density Mustard Scuba Knit,Knits,Scuba Knit,Vardhman Fabrics,Mustard,478,750,3200,True,True,texverse-134.jpg
+135,Soft Touch Rust Cotton Polyester,Blends,Cotton Polyester,Sapphire Textile Mills,Rust,445,1000,5000,True,True,texverse-135.jpg
+136,Performance Pink Cotton Polyester,Blends,Cotton Polyester,Sharma Textiles,Pink,462,200,1200,True,True,texverse-136.jpg
+137,Professional Ivory Cotton Viscose,Blends,Cotton Viscose,Global Denim Mills,Ivory,479,300,1800,True,True,texverse-137.jpg
+138,Durable Teal Cotton Viscose,Blends,Cotton Viscose,Royal Silk House,Teal,316,500,2500,True,True,texverse-138.jpg
+139,Signature Brown Cotton Linen,Blends,Cotton Linen,Natural Linen Mills,Brown,333,750,3200,True,True,texverse-139.jpg
+140,Commercial Natural Cotton Linen,Blends,Cotton Linen,Modern Fiber Industries,Natural,350,1000,5000,True,True,texverse-140.jpg
+141,Premium White Polyester Viscose,Blends,Polyester Viscose,Tex Custom House,White,367,200,1200,True,True,texverse-141.jpg
+142,Classic Black Polyester Viscose,Blends,Polyester Viscose,Sunrise Fabrics,Black,384,300,1800,True,True,texverse-142.jpg
+143,Export Quality Navy Wool Polyester,Blends,Wool Polyester,Apex Textile Works,Navy,401,500,2500,True,True,texverse-143.jpg
+144,High Density Royal Blue Wool Polyester,Blends,Wool Polyester,Bharat Weaves,Royal Blue,418,750,3200,True,True,texverse-144.jpg
+145,Soft Touch Sky Blue Linen Cotton,Blends,Linen Cotton,Prime Looms,Sky Blue,435,1000,5000,True,True,texverse-145.jpg
+146,Performance Maroon Linen Cotton,Blends,Linen Cotton,East India Textiles,Maroon,452,200,1200,True,True,texverse-146.jpg
+147,Professional Wine Cotton Elastane,Blends,Cotton Elastane,Arvind Fabric Hub,Wine,469,300,1800,True,True,texverse-147.jpg
+148,Durable Bottle Green Cotton Elastane,Blends,Cotton Elastane,Metro Textile Supply,Bottle Green,486,500,2500,True,True,texverse-148.jpg
+149,Signature Olive Polyester Elastane,Blends,Polyester Elastane,Vardhman Fabrics,Olive,323,750,3200,True,True,texverse-149.jpg
+150,Commercial Beige Polyester Elastane,Blends,Polyester Elastane,Sapphire Textile Mills,Beige,340,1000,5000,True,True,texverse-150.jpg
+151,Premium Cream Water Repellent Fabric,Technical Textiles,Water Repellent Fabric,Sharma Textiles,Cream,667,200,1200,True,True,texverse-151.jpg
+152,Classic Grey Water Repellent Fabric,Technical Textiles,Water Repellent Fabric,Global Denim Mills,Grey,684,300,1800,True,True,texverse-152.jpg
+153,Export Quality Charcoal Antimicrobial Fabric,Technical Textiles,Antimicrobial Fabric,Royal Silk House,Charcoal,701,500,2500,True,True,texverse-153.jpg
+154,High Density Mustard Antimicrobial Fabric,Technical Textiles,Antimicrobial Fabric,Natural Linen Mills,Mustard,718,750,3200,True,True,texverse-154.jpg
+155,Soft Touch Rust Fire Retardant Fabric,Technical Textiles,Fire Retardant Fabric,Modern Fiber Industries,Rust,735,1000,5000,True,True,texverse-155.jpg
+156,Performance Pink Fire Retardant Fabric,Technical Textiles,Fire Retardant Fabric,Tex Custom House,Pink,752,200,1200,True,True,texverse-156.jpg
+157,Professional Ivory UV Resistant Fabric,Technical Textiles,UV Resistant Fabric,Sunrise Fabrics,Ivory,769,300,1800,True,True,texverse-157.jpg
+158,Durable Teal UV Resistant Fabric,Technical Textiles,UV Resistant Fabric,Apex Textile Works,Teal,786,500,2500,True,True,texverse-158.jpg
+159,Signature Brown Breathable Technical Fabric,Technical Textiles,Breathable Technical Fabric,Bharat Weaves,Brown,623,750,3200,True,True,texverse-159.jpg
+160,Commercial Natural Breathable Technical Fabric,Technical Textiles,Breathable Technical Fabric,Prime Looms,Natural,640,1000,5000,True,True,texverse-160.jpg
+161,Premium White Industrial Coated Fabric,Technical Textiles,Industrial Coated Fabric,East India Textiles,White,657,200,1200,True,True,texverse-161.jpg
+162,Classic Black Industrial Coated Fabric,Technical Textiles,Industrial Coated Fabric,Arvind Fabric Hub,Black,674,300,1800,True,True,texverse-162.jpg
+163,Export Quality Navy Laminated Fabric,Technical Textiles,Laminated Fabric,Metro Textile Supply,Navy,691,500,2500,True,True,texverse-163.jpg
+164,High Density Royal Blue Laminated Fabric,Technical Textiles,Laminated Fabric,Vardhman Fabrics,Royal Blue,708,750,3200,True,True,texverse-164.jpg
+165,Soft Touch Sky Blue Curtain Fabric,Home Textiles,Curtain Fabric,Sapphire Textile Mills,Sky Blue,525,1000,5000,True,True,texverse-165.jpg
+166,Performance Maroon Curtain Fabric,Home Textiles,Curtain Fabric,Sharma Textiles,Maroon,542,200,1200,True,True,texverse-166.jpg
+167,Professional Wine Upholstery Fabric,Home Textiles,Upholstery Fabric,Global Denim Mills,Wine,559,300,1800,True,True,texverse-167.jpg
+168,Durable Bottle Green Upholstery Fabric,Home Textiles,Upholstery Fabric,Royal Silk House,Bottle Green,576,500,2500,True,True,texverse-168.jpg
+169,Signature Olive Cushion Fabric,Home Textiles,Cushion Fabric,Natural Linen Mills,Olive,593,750,3200,True,True,texverse-169.jpg
+170,Commercial Beige Cushion Fabric,Home Textiles,Cushion Fabric,Modern Fiber Industries,Beige,430,1000,5000,True,True,texverse-170.jpg
+171,Premium Cream Bedsheet Fabric,Home Textiles,Bedsheet Fabric,Tex Custom House,Cream,447,200,1200,True,True,texverse-171.jpg
+172,Classic Grey Bedsheet Fabric,Home Textiles,Bedsheet Fabric,Sunrise Fabrics,Grey,464,300,1800,True,True,texverse-172.jpg
+173,Export Quality Charcoal Table Linen,Home Textiles,Table Linen,Apex Textile Works,Charcoal,481,500,2500,True,True,texverse-173.jpg
+174,High Density Mustard Table Linen,Home Textiles,Table Linen,Bharat Weaves,Mustard,498,750,3200,True,True,texverse-174.jpg
+175,Soft Touch Rust Towel Fabric,Home Textiles,Towel Fabric,Prime Looms,Rust,515,1000,5000,True,True,texverse-175.jpg
+176,Performance Pink Towel Fabric,Home Textiles,Towel Fabric,East India Textiles,Pink,532,200,1200,True,True,texverse-176.jpg
+177,Professional Ivory Kitchen Textile,Home Textiles,Kitchen Textile,Arvind Fabric Hub,Ivory,549,300,1800,True,True,texverse-177.jpg
+178,Durable Teal Kitchen Textile,Home Textiles,Kitchen Textile,Metro Textile Supply,Teal,566,500,2500,True,True,texverse-178.jpg
+179,Signature Brown Mattress Fabric,Home Textiles,Mattress Fabric,Vardhman Fabrics,Brown,583,750,3200,True,True,texverse-179.jpg
+180,Commercial Natural Mattress Fabric,Home Textiles,Mattress Fabric,Sapphire Textile Mills,Natural,420,1000,5000,True,True,texverse-180.jpg
+181,Premium White Recycled Polyester,Sustainable Textiles,Recycled Polyester,Sharma Textiles,White,477,200,1200,True,True,texverse-181.jpg
+182,Classic Black Recycled Polyester,Sustainable Textiles,Recycled Polyester,Global Denim Mills,Black,494,300,1800,True,True,texverse-182.jpg
+183,Export Quality Navy Recycled Cotton,Sustainable Textiles,Recycled Cotton,Royal Silk House,Navy,511,500,2500,True,True,texverse-183.jpg
+184,High Density Royal Blue Recycled Cotton,Sustainable Textiles,Recycled Cotton,Natural Linen Mills,Royal Blue,528,750,3200,True,True,texverse-184.jpg
+185,Soft Touch Sky Blue Organic Hemp,Sustainable Textiles,Organic Hemp,Modern Fiber Industries,Sky Blue,545,1000,5000,True,True,texverse-185.jpg
+186,Performance Maroon Organic Hemp,Sustainable Textiles,Organic Hemp,Tex Custom House,Maroon,562,200,1200,True,True,texverse-186.jpg
+187,Professional Wine Bamboo Viscose,Sustainable Textiles,Bamboo Viscose,Sunrise Fabrics,Wine,579,300,1800,True,True,texverse-187.jpg
+188,Durable Bottle Green Bamboo Viscose,Sustainable Textiles,Bamboo Viscose,Apex Textile Works,Bottle Green,596,500,2500,True,True,texverse-188.jpg
+189,Signature Olive Tencel Lyocell,Sustainable Textiles,Tencel Lyocell,Bharat Weaves,Olive,613,750,3200,True,True,texverse-189.jpg
+190,Commercial Beige Tencel Lyocell,Sustainable Textiles,Tencel Lyocell,Prime Looms,Beige,630,1000,5000,True,True,texverse-190.jpg
+191,Premium Cream Recycled Denim,Sustainable Textiles,Recycled Denim,East India Textiles,Cream,467,200,1200,True,True,texverse-191.jpg
+192,Classic Grey Recycled Denim,Sustainable Textiles,Recycled Denim,Arvind Fabric Hub,Grey,484,300,1800,True,True,texverse-192.jpg
+193,Export Quality Charcoal Organic Linen,Sustainable Textiles,Organic Linen,Metro Textile Supply,Charcoal,501,500,2500,True,True,texverse-193.jpg
+194,High Density Mustard Organic Linen,Sustainable Textiles,Organic Linen,Vardhman Fabrics,Mustard,518,750,3200,True,True,texverse-194.jpg
+195,Soft Touch Rust Moisture Wicking,Functional Fabrics,Moisture Wicking,Sapphire Textile Mills,Rust,615,1000,5000,True,True,texverse-195.jpg
+196,Performance Pink Moisture Wicking,Functional Fabrics,Moisture Wicking,Sharma Textiles,Pink,632,200,1200,True,True,texverse-196.jpg
+197,Professional Ivory Quick Dry,Functional Fabrics,Quick Dry,Global Denim Mills,Ivory,649,300,1800,True,True,texverse-197.jpg
+198,Durable Teal Quick Dry,Functional Fabrics,Quick Dry,Royal Silk House,Teal,666,500,2500,True,True,texverse-198.jpg
+199,Signature Brown Four Way Stretch,Functional Fabrics,Four Way Stretch,Natural Linen Mills,Brown,683,750,3200,True,True,texverse-199.jpg
+200,Commercial Natural Four Way Stretch,Functional Fabrics,Four Way Stretch,Modern Fiber Industries,Natural,700,1000,5000,True,True,texverse-200.jpg
+201,Premium White Two Way Stretch,Functional Fabrics,Two Way Stretch,Tex Custom House,White,717,200,1200,True,True,texverse-201.jpg
+202,Classic Black Two Way Stretch,Functional Fabrics,Two Way Stretch,Sunrise Fabrics,Black,554,300,1800,True,True,texverse-202.jpg
+203,Export Quality Navy Wrinkle Resistant,Functional Fabrics,Wrinkle Resistant,Apex Textile Works,Navy,571,500,2500,True,True,texverse-203.jpg
+204,High Density Royal Blue Wrinkle Resistant,Functional Fabrics,Wrinkle Resistant,Bharat Weaves,Royal Blue,588,750,3200,True,True,texverse-204.jpg
+205,Soft Touch Sky Blue Easy Care,Functional Fabrics,Easy Care,Prime Looms,Sky Blue,605,1000,5000,True,True,texverse-205.jpg
+206,Performance Maroon Easy Care,Functional Fabrics,Easy Care,East India Textiles,Maroon,622,200,1200,True,True,texverse-206.jpg
+207,Professional Wine Thermal Fabric,Functional Fabrics,Thermal Fabric,Arvind Fabric Hub,Wine,639,300,1800,True,True,texverse-207.jpg
+208,Durable Bottle Green Thermal Fabric,Functional Fabrics,Thermal Fabric,Metro Textile Supply,Bottle Green,656,500,2500,True,True,texverse-208.jpg
+209,Signature Olive Jacquard Fabric,Fashion Fabrics,Jacquard Fabric,Vardhman Fabrics,Olive,813,750,3200,True,True,texverse-209.jpg
+210,Commercial Beige Jacquard Fabric,Fashion Fabrics,Jacquard Fabric,Sapphire Textile Mills,Beige,830,1000,5000,True,True,texverse-210.jpg
+211,Premium Cream Printed Fabric,Fashion Fabrics,Printed Fabric,Sharma Textiles,Cream,847,200,1200,True,True,texverse-211.jpg
+212,Classic Grey Printed Fabric,Fashion Fabrics,Printed Fabric,Global Denim Mills,Grey,684,300,1800,True,True,texverse-212.jpg
+213,Export Quality Charcoal Embroidered Fabric,Fashion Fabrics,Embroidered Fabric,Royal Silk House,Charcoal,701,500,2500,True,True,texverse-213.jpg
+214,High Density Mustard Embroidered Fabric,Fashion Fabrics,Embroidered Fabric,Natural Linen Mills,Mustard,718,750,3200,True,True,texverse-214.jpg
+215,Soft Touch Rust Lurex Fabric,Fashion Fabrics,Lurex Fabric,Modern Fiber Industries,Rust,735,1000,5000,True,True,texverse-215.jpg
+216,Performance Pink Lurex Fabric,Fashion Fabrics,Lurex Fabric,Tex Custom House,Pink,752,200,1200,True,True,texverse-216.jpg
+217,Professional Ivory Sequin Fabric,Fashion Fabrics,Sequin Fabric,Sunrise Fabrics,Ivory,769,300,1800,True,True,texverse-217.jpg
+218,Durable Teal Sequin Fabric,Fashion Fabrics,Sequin Fabric,Apex Textile Works,Teal,786,500,2500,True,True,texverse-218.jpg
+219,Signature Brown Velvet Fabric,Fashion Fabrics,Velvet Fabric,Bharat Weaves,Brown,803,750,3200,True,True,texverse-219.jpg
+220,Commercial Natural Velvet Fabric,Fashion Fabrics,Velvet Fabric,Prime Looms,Natural,820,1000,5000,True,True,texverse-220.jpg
+221,Premium White Corduroy Fabric,Fashion Fabrics,Corduroy Fabric,East India Textiles,White,837,200,1200,True,True,texverse-221.jpg
+222,Classic Black Corduroy Fabric,Fashion Fabrics,Corduroy Fabric,Arvind Fabric Hub,Black,854,300,1800,True,True,texverse-222.jpg
+223,Export Quality Navy Satin Fabric,Fashion Fabrics,Satin Fabric,Metro Textile Supply,Navy,691,500,2500,True,True,texverse-223.jpg
+224,High Density Royal Blue Satin Fabric,Fashion Fabrics,Satin Fabric,Vardhman Fabrics,Royal Blue,708,750,3200,True,True,texverse-224.jpg
+225,Soft Touch Sky Blue Filter Fabric,Industrial Fabrics,Filter Fabric,Sapphire Textile Mills,Sky Blue,545,1000,5000,True,True,texverse-225.jpg
+226,Performance Maroon Filter Fabric,Industrial Fabrics,Filter Fabric,Sharma Textiles,Maroon,562,200,1200,True,True,texverse-226.jpg
+227,Professional Wine Packaging Textile,Industrial Fabrics,Packaging Textile,Global Denim Mills,Wine,579,300,1800,True,True,texverse-227.jpg
+228,Durable Bottle Green Packaging Textile,Industrial Fabrics,Packaging Textile,Royal Silk House,Bottle Green,596,500,2500,True,True,texverse-228.jpg
+229,Signature Olive Conveyor Textile,Industrial Fabrics,Conveyor Textile,Natural Linen Mills,Olive,613,750,3200,True,True,texverse-229.jpg
+230,Commercial Beige Conveyor Textile,Industrial Fabrics,Conveyor Textile,Modern Fiber Industries,Beige,630,1000,5000,True,True,texverse-230.jpg
+231,Premium Cream Protective Textile,Industrial Fabrics,Protective Textile,Tex Custom House,Cream,647,200,1200,True,True,texverse-231.jpg
+232,Classic Grey Protective Textile,Industrial Fabrics,Protective Textile,Sunrise Fabrics,Grey,664,300,1800,True,True,texverse-232.jpg
+233,Export Quality Charcoal Geotextile,Industrial Fabrics,Geotextile,Apex Textile Works,Charcoal,501,500,2500,True,True,texverse-233.jpg
+234,High Density Mustard Geotextile,Industrial Fabrics,Geotextile,Bharat Weaves,Mustard,518,750,3200,True,True,texverse-234.jpg
+235,Soft Touch Rust Tarpaulin Fabric,Industrial Fabrics,Tarpaulin Fabric,Prime Looms,Rust,535,1000,5000,True,True,texverse-235.jpg
+236,Performance Pink Tarpaulin Fabric,Industrial Fabrics,Tarpaulin Fabric,East India Textiles,Pink,552,200,1200,True,True,texverse-236.jpg
+237,Professional Ivory Canvas Industrial,Industrial Fabrics,Canvas Industrial,Arvind Fabric Hub,Ivory,569,300,1800,True,True,texverse-237.jpg
+238,Durable Teal Canvas Industrial,Industrial Fabrics,Canvas Industrial,Metro Textile Supply,Teal,586,500,2500,True,True,texverse-238.jpg
+239,Soft Touch Navy Corduroy Fabric Premium Finish,Fashion Fabrics,Corduroy Fabric,Sunrise Fabrics,Navy,811,1000,6000,True,True,texverse-239.jpg
+240,Performance Royal Blue Filter Fabric Premium Finish,Industrial Fabrics,Filter Fabric,Apex Textile Works,Royal Blue,650,200,1000,True,True,texverse-240.jpg
+241,Professional Sky Blue Cotton Muslin Premium Finish,Cotton,Cotton Muslin,Bharat Weaves,Sky Blue,429,300,1500,True,True,texverse-241.jpg
+242,Durable Maroon Lightweight Denim Premium Finish,Denim,Lightweight Denim,Prime Looms,Maroon,668,500,2200,True,True,texverse-242.jpg
+243,Signature Wine Dupion Silk Premium Finish,Silk,Dupion Silk,East India Textiles,Wine,1157,750,3500,True,True,texverse-243.jpg
+244,Commercial Bottle Green Linen Blend Premium Finish,Linen,Linen Blend,Arvind Fabric Hub,Bottle Green,576,1000,6000,True,True,texverse-244.jpg
+245,Premium Olive Polyester Crepe Premium Finish,Polyester,Polyester Crepe,Metro Textile Supply,Olive,255,200,1000,True,True,texverse-245.jpg
+246,Classic Beige Rayon Viscose Premium Finish,Rayon,Rayon Viscose,Vardhman Fabrics,Beige,344,300,1500,True,True,texverse-246.jpg
+247,Export Quality Cream Viscose Georgette Premium Finish,Viscose,Viscose Georgette,Sapphire Textile Mills,Cream,403,500,2200,True,True,texverse-247.jpg
+248,High Density Grey Wool Melton Premium Finish,Wool,Wool Melton,Sharma Textiles,Grey,872,750,3500,True,True,texverse-248.jpg
+249,Soft Touch Charcoal Scuba Knit Premium Finish,Knits,Scuba Knit,Global Denim Mills,Charcoal,471,1000,6000,True,True,texverse-249.jpg
+250,Performance Mustard Polyester Elastane Premium Finish,Blends,Polyester Elastane,Royal Silk House,Mustard,440,200,1000,True,True,texverse-250.jpg
+251,Professional Rust Antimicrobial Fabric Premium Finish,Technical Textiles,Antimicrobial Fabric,Natural Linen Mills,Rust,769,300,1500,True,True,texverse-251.jpg
+252,Durable Pink Mattress Fabric Premium Finish,Home Textiles,Mattress Fabric,Modern Fiber Industries,Pink,588,500,2200,True,True,texverse-252.jpg
+253,Signature Ivory Recycled Cotton Premium Finish,Sustainable Textiles,Recycled Cotton,Tex Custom House,Ivory,647,750,3500,True,True,texverse-253.jpg
+254,Commercial Teal Quick Dry Premium Finish,Functional Fabrics,Quick Dry,Sunrise Fabrics,Teal,746,1000,6000,True,True,texverse-254.jpg
+255,Premium Brown Satin Fabric Commercial Grade,Fashion Fabrics,Satin Fabric,Apex Textile Works,Brown,695,200,1000,True,True,texverse-255.jpg
+256,Classic Natural Packaging Textile Commercial Grade,Industrial Fabrics,Packaging Textile,Bharat Weaves,Natural,534,300,1500,True,True,texverse-256.jpg
+257,Export Quality White Cotton Satin Commercial Grade,Cotton,Cotton Satin,Prime Looms,White,313,500,2200,True,True,texverse-257.jpg
+258,High Density Black Stretch Denim Commercial Grade,Denim,Stretch Denim,East India Textiles,Black,552,750,3500,True,True,texverse-258.jpg
+259,Soft Touch Navy Mulberry Silk Commercial Grade,Silk,Mulberry Silk,Arvind Fabric Hub,Navy,1041,1000,6000,True,True,texverse-259.jpg
+260,Performance Royal Blue Linen Canvas Commercial Grade,Linen,Linen Canvas,Metro Textile Supply,Royal Blue,670,200,1000,True,True,texverse-260.jpg
+261,Professional Sky Blue Polyester Satin Commercial Grade,Polyester,Polyester Satin,Vardhman Fabrics,Sky Blue,349,300,1500,True,True,texverse-261.jpg
+262,Durable Maroon Rayon Satin Commercial Grade,Rayon,Rayon Satin,Sapphire Textile Mills,Maroon,438,500,2200,True,True,texverse-262.jpg
+263,Signature Wine Viscose Challis Commercial Grade,Viscose,Viscose Challis,Sharma Textiles,Wine,497,750,3500,True,True,texverse-263.jpg
+264,Commercial Bottle Green Wool Flannel Commercial Grade,Wool,Wool Flannel,Global Denim Mills,Bottle Green,966,1000,6000,True,True,texverse-264.jpg
+265,Premium Olive Single Jersey Commercial Grade,Knits,Single Jersey,Royal Silk House,Olive,565,200,1000,True,True,texverse-265.jpg
+266,Classic Beige Cotton Polyester Commercial Grade,Blends,Cotton Polyester,Natural Linen Mills,Beige,324,300,1500,True,True,texverse-266.jpg
+267,Export Quality Cream Fire Retardant Fabric Commercial Grade,Technical Textiles,Fire Retardant Fabric,Modern Fiber Industries,Cream,653,500,2200,True,True,texverse-267.jpg
+268,High Density Grey Curtain Fabric Commercial Grade,Home Textiles,Curtain Fabric,Tex Custom House,Grey,472,750,3500,True,True,texverse-268.jpg
+269,Soft Touch Charcoal Organic Hemp Commercial Grade,Sustainable Textiles,Organic Hemp,Sunrise Fabrics,Charcoal,531,1000,6000,True,True,texverse-269.jpg
+270,Performance Mustard Four Way Stretch Commercial Grade,Functional Fabrics,Four Way Stretch,Apex Textile Works,Mustard,630,200,1000,True,True,texverse-270.jpg
+271,Professional Rust Jacquard Fabric Commercial Grade,Fashion Fabrics,Jacquard Fabric,Bharat Weaves,Rust,789,300,1500,True,True,texverse-271.jpg
+272,Durable Pink Conveyor Textile Mill Select,Industrial Fabrics,Conveyor Textile,Prime Looms,Pink,628,500,2200,True,True,texverse-272.jpg
+273,Signature Ivory Organic Cotton Mill Select,Cotton,Organic Cotton,East India Textiles,Ivory,407,750,3500,True,True,texverse-273.jpg
+274,Commercial Teal Rigid Denim Mill Select,Denim,Rigid Denim,Arvind Fabric Hub,Teal,646,1000,6000,True,True,texverse-274.jpg
+275,Premium Brown Tussar Silk Mill Select,Silk,Tussar Silk,Metro Textile Supply,Brown,1135,200,1000,True,True,texverse-275.jpg
+276,Classic Natural Linen Rayon Mill Select,Linen,Linen Rayon,Vardhman Fabrics,Natural,764,300,1500,True,True,texverse-276.jpg
+277,Export Quality White Polyester Georgette Mill Select,Polyester,Polyester Georgette,Sapphire Textile Mills,White,233,500,2200,True,True,texverse-277.jpg
+278,High Density Black Rayon Slub Mill Select,Rayon,Rayon Slub,Sharma Textiles,Black,322,750,3500,True,True,texverse-278.jpg
+279,Soft Touch Navy Viscose Jacquard Mill Select,Viscose,Viscose Jacquard,Global Denim Mills,Navy,381,1000,6000,True,True,texverse-279.jpg
+280,Performance Royal Blue Wool Blend Mill Select,Wool,Wool Blend,Royal Silk House,Royal Blue,850,200,1000,True,True,texverse-280.jpg
+281,Professional Sky Blue Interlock Knit Mill Select,Knits,Interlock Knit,Natural Linen Mills,Sky Blue,449,300,1500,True,True,texverse-281.jpg
+282,Durable Maroon Cotton Viscose Mill Select,Blends,Cotton Viscose,Modern Fiber Industries,Maroon,418,500,2200,True,True,texverse-282.jpg
+283,Signature Wine UV Resistant Fabric Mill Select,Technical Textiles,UV Resistant Fabric,Tex Custom House,Wine,747,750,3500,True,True,texverse-283.jpg
+284,Commercial Bottle Green Upholstery Fabric Mill Select,Home Textiles,Upholstery Fabric,Sunrise Fabrics,Bottle Green,566,1000,6000,True,True,texverse-284.jpg
+285,Premium Olive Bamboo Viscose Mill Select,Sustainable Textiles,Bamboo Viscose,Apex Textile Works,Olive,625,200,1000,True,True,texverse-285.jpg
+286,Classic Beige Two Way Stretch Mill Select,Functional Fabrics,Two Way Stretch,Bharat Weaves,Beige,724,300,1500,True,True,texverse-286.jpg
+287,Export Quality Cream Printed Fabric Mill Select,Fashion Fabrics,Printed Fabric,Prime Looms,Cream,883,500,2200,True,True,texverse-287.jpg
+288,High Density Grey Protective Textile Mill Select,Industrial Fabrics,Protective Textile,East India Textiles,Grey,512,750,3500,True,True,texverse-288.jpg
+289,Soft Touch Charcoal Combed Cotton B2B Select,Cotton,Combed Cotton,Arvind Fabric Hub,Charcoal,291,1000,6000,True,True,texverse-289.jpg
+290,Performance Mustard Raw Denim B2B Select,Denim,Raw Denim,Metro Textile Supply,Mustard,530,200,1000,True,True,texverse-290.jpg
+291,Professional Rust Silk Satin B2B Select,Silk,Silk Satin,Vardhman Fabrics,Rust,1019,300,1500,True,True,texverse-291.jpg
+292,Durable Pink Linen Viscose B2B Select,Linen,Linen Viscose,Sapphire Textile Mills,Pink,648,500,2200,True,True,texverse-292.jpg
+293,Signature Ivory Polyester Taffeta B2B Select,Polyester,Polyester Taffeta,Sharma Textiles,Ivory,327,750,3500,True,True,texverse-293.jpg
+294,Commercial Teal Rayon Challis B2B Select,Rayon,Rayon Challis,Global Denim Mills,Teal,416,1000,6000,True,True,texverse-294.jpg
+295,Premium Brown Viscose Twill B2B Select,Viscose,Viscose Twill,Royal Silk House,Brown,475,200,1000,True,True,texverse-295.jpg
+296,Classic Natural Tropical Wool B2B Select,Wool,Tropical Wool,Natural Linen Mills,Natural,944,300,1500,True,True,texverse-296.jpg
+297,Export Quality White Rib Knit B2B Select,Knits,Rib Knit,Modern Fiber Industries,White,543,500,2200,True,True,texverse-297.jpg
+298,High Density Black Cotton Linen B2B Select,Blends,Cotton Linen,Tex Custom House,Black,512,750,3500,True,True,texverse-298.jpg
+299,Soft Touch Navy Breathable Technical Fabric B2B Select,Technical Textiles,Breathable Technical Fabric,Sunrise Fabrics,Navy,631,1000,6000,True,True,texverse-299.jpg
+300,Performance Royal Blue Cushion Fabric B2B Select,Home Textiles,Cushion Fabric,Apex Textile Works,Royal Blue,450,200,1000,True,True,texverse-300.jpg
+301,Professional Sky Blue Tencel Lyocell B2B Select,Sustainable Textiles,Tencel Lyocell,Bharat Weaves,Sky Blue,509,300,1500,True,True,texverse-301.jpg
+302,Durable Maroon Wrinkle Resistant B2B Select,Functional Fabrics,Wrinkle Resistant,Prime Looms,Maroon,608,500,2200,True,True,texverse-302.jpg
+303,Signature Wine Embroidered Fabric B2B Select,Fashion Fabrics,Embroidered Fabric,East India Textiles,Wine,767,750,3500,True,True,texverse-303.jpg
+304,Commercial Bottle Green Geotextile B2B Select,Industrial Fabrics,Geotextile,Arvind Fabric Hub,Bottle Green,606,1000,6000,True,True,texverse-304.jpg
+305,Premium Olive Cotton Jersey B2B Select,Cotton,Cotton Jersey,Metro Textile Supply,Olive,385,200,1000,True,True,texverse-305.jpg
+306,Classic Beige Washed Denim Bulk Grade,Denim,Washed Denim,Vardhman Fabrics,Beige,624,300,1500,True,True,texverse-306.jpg
+307,Export Quality Cream Silk Crepe Bulk Grade,Silk,Silk Crepe,Sapphire Textile Mills,Cream,1113,500,2200,True,True,texverse-307.jpg
+308,High Density Grey Linen Twill Bulk Grade,Linen,Linen Twill,Sharma Textiles,Grey,742,750,3500,True,True,texverse-308.jpg
+309,Soft Touch Charcoal Micro Polyester Bulk Grade,Polyester,Micro Polyester,Global Denim Mills,Charcoal,421,1000,6000,True,True,texverse-309.jpg
+310,Performance Mustard Rayon Twill Bulk Grade,Rayon,Rayon Twill,Royal Silk House,Mustard,300,200,1000,True,True,texverse-310.jpg
+311,Professional Rust Viscose Crepe Bulk Grade,Viscose,Viscose Crepe,Natural Linen Mills,Rust,359,300,1500,True,True,texverse-311.jpg
+312,Durable Pink Wool Crepe Bulk Grade,Wool,Wool Crepe,Modern Fiber Industries,Pink,828,500,2200,True,True,texverse-312.jpg
+313,Signature Ivory Pique Knit Bulk Grade,Knits,Pique Knit,Tex Custom House,Ivory,427,750,3500,True,True,texverse-313.jpg
+314,Commercial Teal Polyester Viscose Bulk Grade,Blends,Polyester Viscose,Sunrise Fabrics,Teal,396,1000,6000,True,True,texverse-314.jpg
+315,Premium Brown Industrial Coated Fabric Bulk Grade,Technical Textiles,Industrial Coated Fabric,Apex Textile Works,Brown,725,200,1000,True,True,texverse-315.jpg
+316,Classic Natural Bedsheet Fabric Bulk Grade,Home Textiles,Bedsheet Fabric,Bharat Weaves,Natural,544,300,1500,True,True,texverse-316.jpg
+317,Export Quality White Recycled Denim Bulk Grade,Sustainable Textiles,Recycled Denim,Prime Looms,White,603,500,2200,True,True,texverse-317.jpg
+318,High Density Black Easy Care Bulk Grade,Functional Fabrics,Easy Care,East India Textiles,Black,702,750,3500,True,True,texverse-318.jpg
+319,Soft Touch Navy Lurex Fabric Bulk Grade,Fashion Fabrics,Lurex Fabric,Arvind Fabric Hub,Navy,861,1000,6000,True,True,texverse-319.jpg
+320,Performance Royal Blue Tarpaulin Fabric Bulk Grade,Industrial Fabrics,Tarpaulin Fabric,Metro Textile Supply,Royal Blue,700,200,1000,True,True,texverse-320.jpg
+321,Professional Sky Blue Cotton Poplin Bulk Grade,Cotton,Cotton Poplin,Vardhman Fabrics,Sky Blue,269,300,1500,True,True,texverse-321.jpg
+322,Durable Maroon Selvedge Denim Bulk Grade,Denim,Selvedge Denim,Sapphire Textile Mills,Maroon,508,500,2200,True,True,texverse-322.jpg
+323,Signature Wine Silk Chiffon Export Lot,Silk,Silk Chiffon,Sharma Textiles,Wine,997,750,3500,True,True,texverse-323.jpg
+324,Commercial Bottle Green Linen Slub Export Lot,Linen,Linen Slub,Global Denim Mills,Bottle Green,626,1000,6000,True,True,texverse-324.jpg
+325,Premium Olive Polyester Spandex Export Lot,Polyester,Polyester Spandex,Royal Silk House,Olive,305,200,1000,True,True,texverse-325.jpg
+326,Classic Beige Rayon Crepe Export Lot,Rayon,Rayon Crepe,Natural Linen Mills,Beige,394,300,1500,True,True,texverse-326.jpg
+327,Export Quality Cream Viscose Satin Export Lot,Viscose,Viscose Satin,Modern Fiber Industries,Cream,453,500,2200,True,True,texverse-327.jpg
+328,High Density Grey Wool Tweed Export Lot,Wool,Wool Tweed,Tex Custom House,Grey,922,750,3500,True,True,texverse-328.jpg
+329,Soft Touch Charcoal French Terry Export Lot,Knits,French Terry,Sunrise Fabrics,Charcoal,521,1000,6000,True,True,texverse-329.jpg
+330,Performance Mustard Wool Polyester Export Lot,Blends,Wool Polyester,Apex Textile Works,Mustard,490,200,1000,True,True,texverse-330.jpg
+331,Professional Rust Laminated Fabric Export Lot,Technical Textiles,Laminated Fabric,Bharat Weaves,Rust,819,300,1500,True,True,texverse-331.jpg
+332,Durable Pink Table Linen Export Lot,Home Textiles,Table Linen,Prime Looms,Pink,428,500,2200,True,True,texverse-332.jpg
+333,Signature Ivory Organic Linen Export Lot,Sustainable Textiles,Organic Linen,East India Textiles,Ivory,487,750,3500,True,True,texverse-333.jpg
+334,Commercial Teal Thermal Fabric Export Lot,Functional Fabrics,Thermal Fabric,Arvind Fabric Hub,Teal,586,1000,6000,True,True,texverse-334.jpg
+335,Premium Brown Sequin Fabric Export Lot,Fashion Fabrics,Sequin Fabric,Metro Textile Supply,Brown,745,200,1000,True,True,texverse-335.jpg
+336,Classic Natural Canvas Industrial Export Lot,Industrial Fabrics,Canvas Industrial,Vardhman Fabrics,Natural,584,300,1500,True,True,texverse-336.jpg
+337,Export Quality White Cotton Twill Export Lot,Cotton,Cotton Twill,Sapphire Textile Mills,White,363,500,2200,True,True,texverse-337.jpg
+338,High Density Black Black Denim Export Lot,Denim,Black Denim,Sharma Textiles,Black,602,750,3500,True,True,texverse-338.jpg
+339,Soft Touch Navy Silk Organza Export Lot,Silk,Silk Organza,Global Denim Mills,Navy,1091,1000,6000,True,True,texverse-339.jpg
+340,Performance Royal Blue Pure Linen Premium Finish,Linen,Pure Linen,Royal Silk House,Royal Blue,720,200,1000,True,True,texverse-340.jpg
+341,Professional Sky Blue Performance Polyester Premium Finish,Polyester,Performance Polyester,Natural Linen Mills,Sky Blue,399,300,1500,True,True,texverse-341.jpg
+342,Durable Maroon Rayon Viscose Premium Finish,Rayon,Rayon Viscose,Modern Fiber Industries,Maroon,488,500,2200,True,True,texverse-342.jpg
+343,Signature Wine Viscose Georgette Premium Finish,Viscose,Viscose Georgette,Tex Custom House,Wine,337,750,3500,True,True,texverse-343.jpg
+344,Commercial Bottle Green Merino Wool Premium Finish,Wool,Merino Wool,Sunrise Fabrics,Bottle Green,806,1000,6000,True,True,texverse-344.jpg
+345,Premium Olive Fleece Knit Premium Finish,Knits,Fleece Knit,Apex Textile Works,Olive,405,200,1000,True,True,texverse-345.jpg
+346,Classic Beige Linen Cotton Premium Finish,Blends,Linen Cotton,Bharat Weaves,Beige,374,300,1500,True,True,texverse-346.jpg
+347,Export Quality Cream Water Repellent Fabric Premium Finish,Technical Textiles,Water Repellent Fabric,Prime Looms,Cream,703,500,2200,True,True,texverse-347.jpg
+348,High Density Grey Towel Fabric Premium Finish,Home Textiles,Towel Fabric,East India Textiles,Grey,522,750,3500,True,True,texverse-348.jpg
+349,Soft Touch Charcoal Recycled Polyester Premium Finish,Sustainable Textiles,Recycled Polyester,Arvind Fabric Hub,Charcoal,581,1000,6000,True,True,texverse-349.jpg
+350,Performance Mustard Moisture Wicking Premium Finish,Functional Fabrics,Moisture Wicking,Metro Textile Supply,Mustard,680,200,1000,True,True,texverse-350.jpg
+351,Professional Rust Velvet Fabric Premium Finish,Fashion Fabrics,Velvet Fabric,Vardhman Fabrics,Rust,839,300,1500,True,True,texverse-351.jpg
+352,Durable Pink Filter Fabric Premium Finish,Industrial Fabrics,Filter Fabric,Sapphire Textile Mills,Pink,678,500,2200,True,True,texverse-352.jpg
+353,Signature Ivory Cotton Voile Premium Finish,Cotton,Cotton Voile,Sharma Textiles,Ivory,457,750,3500,True,True,texverse-353.jpg
+354,Commercial Teal Colored Denim Premium Finish,Denim,Colored Denim,Global Denim Mills,Teal,486,1000,6000,True,True,texverse-354.jpg
+355,Premium Brown Silk Georgette Premium Finish,Silk,Silk Georgette,Royal Silk House,Brown,975,200,1000,True,True,texverse-355.jpg
+356,Classic Natural Linen Blend Premium Finish,Linen,Linen Blend,Natural Linen Mills,Natural,604,300,1500,True,True,texverse-356.jpg
+357,Export Quality White Polyester Crepe Commercial Grade,Polyester,Polyester Crepe,Modern Fiber Industries,White,283,500,2200,True,True,texverse-357.jpg
+358,High Density Black Rayon Satin Commercial Grade,Rayon,Rayon Satin,Tex Custom House,Black,372,750,3500,True,True,texverse-358.jpg
+359,Soft Touch Navy Viscose Challis Commercial Grade,Viscose,Viscose Challis,Sunrise Fabrics,Navy,431,1000,6000,True,True,texverse-359.jpg
+360,Performance Royal Blue Wool Melton Commercial Grade,Wool,Wool Melton,Apex Textile Works,Royal Blue,900,200,1000,True,True,texverse-360.jpg
+361,Professional Sky Blue Ottoman Knit Commercial Grade,Knits,Ottoman Knit,Bharat Weaves,Sky Blue,499,300,1500,True,True,texverse-361.jpg
+362,Durable Maroon Cotton Elastane Commercial Grade,Blends,Cotton Elastane,Prime Looms,Maroon,468,500,2200,True,True,texverse-362.jpg
+363,Signature Wine Antimicrobial Fabric Commercial Grade,Technical Textiles,Antimicrobial Fabric,East India Textiles,Wine,797,750,3500,True,True,texverse-363.jpg
+364,Commercial Bottle Green Kitchen Textile Commercial Grade,Home Textiles,Kitchen Textile,Arvind Fabric Hub,Bottle Green,616,1000,6000,True,True,texverse-364.jpg
+365,Premium Olive Recycled Cotton Commercial Grade,Sustainable Textiles,Recycled Cotton,Metro Textile Supply,Olive,465,200,1000,True,True,texverse-365.jpg
+366,Classic Beige Quick Dry Commercial Grade,Functional Fabrics,Quick Dry,Vardhman Fabrics,Beige,564,300,1500,True,True,texverse-366.jpg
+367,Export Quality Cream Corduroy Fabric Commercial Grade,Fashion Fabrics,Corduroy Fabric,Sapphire Textile Mills,Cream,723,500,2200,True,True,texverse-367.jpg
+368,High Density Grey Packaging Textile Commercial Grade,Industrial Fabrics,Packaging Textile,Sharma Textiles,Grey,562,750,3500,True,True,texverse-368.jpg
+369,Soft Touch Charcoal Cotton Cambric Commercial Grade,Cotton,Cotton Cambric,Global Denim Mills,Charcoal,341,1000,6000,True,True,texverse-369.jpg
+370,Performance Mustard Lightweight Denim Commercial Grade,Denim,Lightweight Denim,Royal Silk House,Mustard,580,200,1000,True,True,texverse-370.jpg
+371,Professional Rust Dupion Silk Commercial Grade,Silk,Dupion Silk,Natural Linen Mills,Rust,1069,300,1500,True,True,texverse-371.jpg
+372,Durable Pink Linen Canvas Commercial Grade,Linen,Linen Canvas,Modern Fiber Industries,Pink,698,500,2200,True,True,texverse-372.jpg
+373,Signature Ivory Polyester Satin Commercial Grade,Polyester,Polyester Satin,Tex Custom House,Ivory,377,750,3500,True,True,texverse-373.jpg
+374,Commercial Teal Rayon Slub Mill Select,Rayon,Rayon Slub,Sunrise Fabrics,Teal,466,1000,6000,True,True,texverse-374.jpg
+375,Premium Brown Viscose Jacquard Mill Select,Viscose,Viscose Jacquard,Apex Textile Works,Brown,525,200,1000,True,True,texverse-375.jpg
+376,Classic Natural Wool Flannel Mill Select,Wool,Wool Flannel,Bharat Weaves,Natural,784,300,1500,True,True,texverse-376.jpg
+377,Export Quality White Scuba Knit Mill Select,Knits,Scuba Knit,Prime Looms,White,383,500,2200,True,True,texverse-377.jpg
+378,High Density Black Polyester Elastane Mill Select,Blends,Polyester Elastane,East India Textiles,Black,352,750,3500,True,True,texverse-378.jpg
+379,Soft Touch Navy Fire Retardant Fabric Mill Select,Technical Textiles,Fire Retardant Fabric,Arvind Fabric Hub,Navy,681,1000,6000,True,True,texverse-379.jpg
+380,Performance Royal Blue Mattress Fabric Mill Select,Home Textiles,Mattress Fabric,Metro Textile Supply,Royal Blue,500,200,1000,True,True,texverse-380.jpg
+381,Professional Sky Blue Organic Hemp Mill Select,Sustainable Textiles,Organic Hemp,Vardhman Fabrics,Sky Blue,559,300,1500,True,True,texverse-381.jpg
+382,Durable Maroon Four Way Stretch Mill Select,Functional Fabrics,Four Way Stretch,Sapphire Textile Mills,Maroon,658,500,2200,True,True,texverse-382.jpg
+383,Signature Wine Satin Fabric Mill Select,Fashion Fabrics,Satin Fabric,Sharma Textiles,Wine,817,750,3500,True,True,texverse-383.jpg
+384,Commercial Bottle Green Conveyor Textile Mill Select,Industrial Fabrics,Conveyor Textile,Global Denim Mills,Bottle Green,656,1000,6000,True,True,texverse-384.jpg
+385,Premium Olive Cotton Canvas Mill Select,Cotton,Cotton Canvas,Royal Silk House,Olive,435,200,1000,True,True,texverse-385.jpg
+386,Classic Beige Stretch Denim Mill Select,Denim,Stretch Denim,Natural Linen Mills,Beige,674,300,1500,True,True,texverse-386.jpg
+387,Export Quality Cream Mulberry Silk Mill Select,Silk,Mulberry Silk,Modern Fiber Industries,Cream,953,500,2200,True,True,texverse-387.jpg
+388,High Density Grey Linen Rayon Mill Select,Linen,Linen Rayon,Tex Custom House,Grey,582,750,3500,True,True,texverse-388.jpg
+389,Soft Touch Charcoal Polyester Georgette Mill Select,Polyester,Polyester Georgette,Sunrise Fabrics,Charcoal,261,1000,6000,True,True,texverse-389.jpg
+390,Performance Mustard Rayon Challis Mill Select,Rayon,Rayon Challis,Apex Textile Works,Mustard,350,200,1000,True,True,texverse-390.jpg
+391,Professional Rust Viscose Twill B2B Select,Viscose,Viscose Twill,Bharat Weaves,Rust,409,300,1500,True,True,texverse-391.jpg
+392,Durable Pink Wool Blend B2B Select,Wool,Wool Blend,Prime Looms,Pink,878,500,2200,True,True,texverse-392.jpg
+393,Signature Ivory Single Jersey B2B Select,Knits,Single Jersey,East India Textiles,Ivory,477,750,3500,True,True,texverse-393.jpg
+394,Commercial Teal Cotton Polyester B2B Select,Blends,Cotton Polyester,Arvind Fabric Hub,Teal,446,1000,6000,True,True,texverse-394.jpg
+395,Premium Brown UV Resistant Fabric B2B Select,Technical Textiles,UV Resistant Fabric,Metro Textile Supply,Brown,775,200,1000,True,True,texverse-395.jpg
+396,Classic Natural Curtain Fabric B2B Select,Home Textiles,Curtain Fabric,Vardhman Fabrics,Natural,594,300,1500,True,True,texverse-396.jpg
+397,Export Quality White Bamboo Viscose B2B Select,Sustainable Textiles,Bamboo Viscose,Sapphire Textile Mills,White,653,500,2200,True,True,texverse-397.jpg
+398,High Density Black Two Way Stretch B2B Select,Functional Fabrics,Two Way Stretch,Sharma Textiles,Black,542,750,3500,True,True,texverse-398.jpg
+399,Soft Touch Navy Jacquard Fabric B2B Select,Fashion Fabrics,Jacquard Fabric,Global Denim Mills,Navy,701,1000,6000,True,True,texverse-399.jpg
+400,Performance Royal Blue Protective Textile B2B Select,Industrial Fabrics,Protective Textile,Royal Silk House,Royal Blue,540,200,1000,True,True,texverse-400.jpg
+401,Professional Sky Blue Cotton Muslin B2B Select,Cotton,Cotton Muslin,Natural Linen Mills,Sky Blue,319,300,1500,True,True,texverse-401.jpg
+402,Durable Maroon Rigid Denim B2B Select,Denim,Rigid Denim,Modern Fiber Industries,Maroon,558,500,2200,True,True,texverse-402.jpg
+403,Signature Wine Tussar Silk B2B Select,Silk,Tussar Silk,Tex Custom House,Wine,1047,750,3500,True,True,texverse-403.jpg
+404,Commercial Bottle Green Linen Viscose B2B Select,Linen,Linen Viscose,Sunrise Fabrics,Bottle Green,676,1000,6000,True,True,texverse-404.jpg
+405,Premium Olive Polyester Taffeta B2B Select,Polyester,Polyester Taffeta,Apex Textile Works,Olive,355,200,1000,True,True,texverse-405.jpg
+406,Classic Beige Rayon Twill B2B Select,Rayon,Rayon Twill,Bharat Weaves,Beige,444,300,1500,True,True,texverse-406.jpg
+407,Export Quality Cream Viscose Crepe B2B Select,Viscose,Viscose Crepe,Prime Looms,Cream,503,500,2200,True,True,texverse-407.jpg
+408,High Density Grey Tropical Wool Bulk Grade,Wool,Tropical Wool,East India Textiles,Grey,972,750,3500,True,True,texverse-408.jpg
+409,Soft Touch Charcoal Interlock Knit Bulk Grade,Knits,Interlock Knit,Arvind Fabric Hub,Charcoal,361,1000,6000,True,True,texverse-409.jpg
+410,Performance Mustard Cotton Viscose Bulk Grade,Blends,Cotton Viscose,Metro Textile Supply,Mustard,330,200,1000,True,True,texverse-410.jpg
+411,Professional Rust Breathable Technical Fabric Bulk Grade,Technical Textiles,Breathable Technical Fabric,Vardhman Fabrics,Rust,659,300,1500,True,True,texverse-411.jpg
+412,Durable Pink Upholstery Fabric Bulk Grade,Home Textiles,Upholstery Fabric,Sapphire Textile Mills,Pink,478,500,2200,True,True,texverse-412.jpg
+413,Signature Ivory Tencel Lyocell Bulk Grade,Sustainable Textiles,Tencel Lyocell,Sharma Textiles,Ivory,537,750,3500,True,True,texverse-413.jpg
+414,Commercial Teal Wrinkle Resistant Bulk Grade,Functional Fabrics,Wrinkle Resistant,Global Denim Mills,Teal,636,1000,6000,True,True,texverse-414.jpg
+415,Premium Brown Printed Fabric Bulk Grade,Fashion Fabrics,Printed Fabric,Royal Silk House,Brown,795,200,1000,True,True,texverse-415.jpg
+416,Classic Natural Geotextile Bulk Grade,Industrial Fabrics,Geotextile,Natural Linen Mills,Natural,634,300,1500,True,True,texverse-416.jpg
+417,Export Quality White Cotton Satin Bulk Grade,Cotton,Cotton Satin,Modern Fiber Industries,White,413,500,2200,True,True,texverse-417.jpg
+418,High Density Black Raw Denim Bulk Grade,Denim,Raw Denim,Tex Custom House,Black,652,750,3500,True,True,texverse-418.jpg
+419,Soft Touch Navy Silk Satin Bulk Grade,Silk,Silk Satin,Sunrise Fabrics,Navy,1141,1000,6000,True,True,texverse-419.jpg
+420,Performance Royal Blue Linen Twill Bulk Grade,Linen,Linen Twill,Apex Textile Works,Royal Blue,560,200,1000,True,True,texverse-420.jpg
+421,Professional Sky Blue Micro Polyester Bulk Grade,Polyester,Micro Polyester,Bharat Weaves,Sky Blue,239,300,1500,True,True,texverse-421.jpg
+422,Durable Maroon Rayon Crepe Bulk Grade,Rayon,Rayon Crepe,Prime Looms,Maroon,328,500,2200,True,True,texverse-422.jpg
+423,Signature Wine Viscose Satin Bulk Grade,Viscose,Viscose Satin,East India Textiles,Wine,387,750,3500,True,True,texverse-423.jpg
+424,Commercial Bottle Green Wool Crepe Bulk Grade,Wool,Wool Crepe,Arvind Fabric Hub,Bottle Green,856,1000,6000,True,True,texverse-424.jpg
+425,Premium Olive Rib Knit Export Lot,Knits,Rib Knit,Metro Textile Supply,Olive,455,200,1000,True,True,texverse-425.jpg
+426,Classic Beige Cotton Linen Export Lot,Blends,Cotton Linen,Vardhman Fabrics,Beige,424,300,1500,True,True,texverse-426.jpg
+427,Export Quality Cream Industrial Coated Fabric Export Lot,Technical Textiles,Industrial Coated Fabric,Sapphire Textile Mills,Cream,753,500,2200,True,True,texverse-427.jpg
+428,High Density Grey Cushion Fabric Export Lot,Home Textiles,Cushion Fabric,Sharma Textiles,Grey,572,750,3500,True,True,texverse-428.jpg
+429,Soft Touch Charcoal Recycled Denim Export Lot,Sustainable Textiles,Recycled Denim,Global Denim Mills,Charcoal,631,1000,6000,True,True,texverse-429.jpg
+430,Performance Mustard Easy Care Export Lot,Functional Fabrics,Easy Care,Royal Silk House,Mustard,730,200,1000,True,True,texverse-430.jpg
+431,Professional Rust Embroidered Fabric Export Lot,Fashion Fabrics,Embroidered Fabric,Natural Linen Mills,Rust,889,300,1500,True,True,texverse-431.jpg
+432,Durable Pink Tarpaulin Fabric Export Lot,Industrial Fabrics,Tarpaulin Fabric,Modern Fiber Industries,Pink,518,500,2200,True,True,texverse-432.jpg
+433,Signature Ivory Organic Cotton Export Lot,Cotton,Organic Cotton,Tex Custom House,Ivory,297,750,3500,True,True,texverse-433.jpg
+434,Commercial Teal Washed Denim Export Lot,Denim,Washed Denim,Sunrise Fabrics,Teal,536,1000,6000,True,True,texverse-434.jpg
+435,Premium Brown Silk Crepe Export Lot,Silk,Silk Crepe,Apex Textile Works,Brown,1025,200,1000,True,True,texverse-435.jpg
+436,Classic Natural Linen Slub Export Lot,Linen,Linen Slub,Bharat Weaves,Natural,654,300,1500,True,True,texverse-436.jpg
+437,Export Quality White Polyester Spandex Export Lot,Polyester,Polyester Spandex,Prime Looms,White,333,500,2200,True,True,texverse-437.jpg
+438,High Density Black Rayon Viscose Export Lot,Rayon,Rayon Viscose,East India Textiles,Black,422,750,3500,True,True,texverse-438.jpg
+439,Soft Touch Navy Viscose Georgette Export Lot,Viscose,Viscose Georgette,Arvind Fabric Hub,Navy,481,1000,6000,True,True,texverse-439.jpg
+440,Performance Royal Blue Wool Tweed Export Lot,Wool,Wool Tweed,Metro Textile Supply,Royal Blue,950,200,1000,True,True,texverse-440.jpg
+441,Professional Sky Blue Pique Knit Export Lot,Knits,Pique Knit,Vardhman Fabrics,Sky Blue,549,300,1500,True,True,texverse-441.jpg
+442,Durable Maroon Polyester Viscose Premium Finish,Blends,Polyester Viscose,Sapphire Textile Mills,Maroon,518,500,2200,True,True,texverse-442.jpg
+443,Signature Wine Laminated Fabric Premium Finish,Technical Textiles,Laminated Fabric,Sharma Textiles,Wine,637,750,3500,True,True,texverse-443.jpg
+444,Commercial Bottle Green Bedsheet Fabric Premium Finish,Home Textiles,Bedsheet Fabric,Global Denim Mills,Bottle Green,456,1000,6000,True,True,texverse-444.jpg
+445,Premium Olive Organic Linen Premium Finish,Sustainable Textiles,Organic Linen,Royal Silk House,Olive,515,200,1000,True,True,texverse-445.jpg
+446,Classic Beige Thermal Fabric Premium Finish,Functional Fabrics,Thermal Fabric,Natural Linen Mills,Beige,614,300,1500,True,True,texverse-446.jpg
+447,Export Quality Cream Lurex Fabric Premium Finish,Fashion Fabrics,Lurex Fabric,Modern Fiber Industries,Cream,773,500,2200,True,True,texverse-447.jpg
+448,High Density Grey Canvas Industrial Premium Finish,Industrial Fabrics,Canvas Industrial,Tex Custom House,Grey,612,750,3500,True,True,texverse-448.jpg
+449,Soft Touch Charcoal Combed Cotton Premium Finish,Cotton,Combed Cotton,Sunrise Fabrics,Charcoal,391,1000,6000,True,True,texverse-449.jpg
+450,Performance Mustard Selvedge Denim Premium Finish,Denim,Selvedge Denim,Apex Textile Works,Mustard,630,200,1000,True,True,texverse-450.jpg
+451,Professional Rust Silk Chiffon Premium Finish,Silk,Silk Chiffon,Bharat Weaves,Rust,1119,300,1500,True,True,texverse-451.jpg
+452,Durable Pink Pure Linen Premium Finish,Linen,Pure Linen,Prime Looms,Pink,748,500,2200,True,True,texverse-452.jpg
+453,Signature Ivory Performance Polyester Premium Finish,Polyester,Performance Polyester,East India Textiles,Ivory,427,750,3500,True,True,texverse-453.jpg
+454,Commercial Teal Rayon Satin Premium Finish,Rayon,Rayon Satin,Arvind Fabric Hub,Teal,306,1000,6000,True,True,texverse-454.jpg
+455,Premium Brown Viscose Challis Premium Finish,Viscose,Viscose Challis,Metro Textile Supply,Brown,365,200,1000,True,True,texverse-455.jpg
+456,Classic Natural Merino Wool Premium Finish,Wool,Merino Wool,Vardhman Fabrics,Natural,834,300,1500,True,True,texverse-456.jpg
+457,Export Quality White French Terry Premium Finish,Knits,French Terry,Sapphire Textile Mills,White,433,500,2200,True,True,texverse-457.jpg
+458,High Density Black Wool Polyester Premium Finish,Blends,Wool Polyester,Sharma Textiles,Black,402,750,3500,True,True,texverse-458.jpg
+459,Soft Touch Navy Water Repellent Fabric Commercial Grade,Technical Textiles,Water Repellent Fabric,Global Denim Mills,Navy,731,1000,6000,True,True,texverse-459.jpg
+460,Performance Royal Blue Table Linen Commercial Grade,Home Textiles,Table Linen,Royal Silk House,Royal Blue,550,200,1000,True,True,texverse-460.jpg
+461,Professional Sky Blue Recycled Polyester Commercial Grade,Sustainable Textiles,Recycled Polyester,Natural Linen Mills,Sky Blue,609,300,1500,True,True,texverse-461.jpg
+462,Durable Maroon Moisture Wicking Commercial Grade,Functional Fabrics,Moisture Wicking,Modern Fiber Industries,Maroon,708,500,2200,True,True,texverse-462.jpg
+463,Signature Wine Sequin Fabric Commercial Grade,Fashion Fabrics,Sequin Fabric,Tex Custom House,Wine,867,750,3500,True,True,texverse-463.jpg
+464,Commercial Bottle Green Filter Fabric Commercial Grade,Industrial Fabrics,Filter Fabric,Sunrise Fabrics,Bottle Green,706,1000,6000,True,True,texverse-464.jpg
+465,Premium Olive Cotton Jersey Commercial Grade,Cotton,Cotton Jersey,Apex Textile Works,Olive,275,200,1000,True,True,texverse-465.jpg
+466,Classic Beige Black Denim Commercial Grade,Denim,Black Denim,Bharat Weaves,Beige,514,300,1500,True,True,texverse-466.jpg
+467,Export Quality Cream Silk Organza Commercial Grade,Silk,Silk Organza,Prime Looms,Cream,1003,500,2200,True,True,texverse-467.jpg
+468,High Density Grey Linen Blend Commercial Grade,Linen,Linen Blend,East India Textiles,Grey,632,750,3500,True,True,texverse-468.jpg
+469,Soft Touch Charcoal Polyester Crepe Commercial Grade,Polyester,Polyester Crepe,Arvind Fabric Hub,Charcoal,311,1000,6000,True,True,texverse-469.jpg
+470,Performance Mustard Rayon Slub Commercial Grade,Rayon,Rayon Slub,Metro Textile Supply,Mustard,400,200,1000,True,True,texverse-470.jpg
+471,Professional Rust Viscose Jacquard Commercial Grade,Viscose,Viscose Jacquard,Vardhman Fabrics,Rust,459,300,1500,True,True,texverse-471.jpg
+472,Durable Pink Wool Melton Commercial Grade,Wool,Wool Melton,Sapphire Textile Mills,Pink,928,500,2200,True,True,texverse-472.jpg
+473,Signature Ivory Fleece Knit Commercial Grade,Knits,Fleece Knit,Sharma Textiles,Ivory,527,750,3500,True,True,texverse-473.jpg
+474,Commercial Teal Linen Cotton Commercial Grade,Blends,Linen Cotton,Global Denim Mills,Teal,496,1000,6000,True,True,texverse-474.jpg
+475,Premium Brown Antimicrobial Fabric Commercial Grade,Technical Textiles,Antimicrobial Fabric,Royal Silk House,Brown,825,200,1000,True,True,texverse-475.jpg
+476,Classic Natural Towel Fabric Mill Select,Home Textiles,Towel Fabric,Natural Linen Mills,Natural,434,300,1500,True,True,texverse-476.jpg
+477,Export Quality White Recycled Cotton Mill Select,Sustainable Textiles,Recycled Cotton,Modern Fiber Industries,White,493,500,2200,True,True,texverse-477.jpg
+478,High Density Black Quick Dry Mill Select,Functional Fabrics,Quick Dry,Tex Custom House,Black,592,750,3500,True,True,texverse-478.jpg
+479,Soft Touch Navy Velvet Fabric Mill Select,Fashion Fabrics,Velvet Fabric,Sunrise Fabrics,Navy,751,1000,6000,True,True,texverse-479.jpg

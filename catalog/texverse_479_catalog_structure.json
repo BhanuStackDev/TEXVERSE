@@ -1,0 +1,159 @@
+{
+  "product_count": 479,
+  "category_count": 16,
+  "subcategory_count": 119,
+  "categories": {
+    "Cotton": [
+      "Cotton Poplin",
+      "Cotton Twill",
+      "Cotton Voile",
+      "Cotton Cambric",
+      "Cotton Canvas",
+      "Cotton Muslin",
+      "Cotton Satin",
+      "Organic Cotton",
+      "Combed Cotton",
+      "Cotton Jersey"
+    ],
+    "Denim": [
+      "Stretch Denim",
+      "Rigid Denim",
+      "Raw Denim",
+      "Washed Denim",
+      "Selvedge Denim",
+      "Black Denim",
+      "Colored Denim",
+      "Lightweight Denim"
+    ],
+    "Silk": [
+      "Mulberry Silk",
+      "Tussar Silk",
+      "Silk Satin",
+      "Silk Crepe",
+      "Silk Chiffon",
+      "Silk Organza",
+      "Silk Georgette",
+      "Dupion Silk"
+    ],
+    "Linen": [
+      "Pure Linen",
+      "Linen Blend",
+      "Linen Canvas",
+      "Linen Rayon",
+      "Linen Viscose",
+      "Linen Twill",
+      "Linen Slub"
+    ],
+    "Polyester": [
+      "Performance Polyester",
+      "Polyester Crepe",
+      "Polyester Satin",
+      "Polyester Georgette",
+      "Polyester Taffeta",
+      "Micro Polyester",
+      "Polyester Spandex"
+    ],
+    "Rayon": [
+      "Rayon Challis",
+      "Rayon Twill",
+      "Rayon Crepe",
+      "Rayon Viscose",
+      "Rayon Satin",
+      "Rayon Slub"
+    ],
+    "Viscose": [
+      "Viscose Twill",
+      "Viscose Crepe",
+      "Viscose Satin",
+      "Viscose Georgette",
+      "Viscose Challis",
+      "Viscose Jacquard"
+    ],
+    "Wool": [
+      "Merino Wool",
+      "Wool Melton",
+      "Wool Flannel",
+      "Wool Blend",
+      "Tropical Wool",
+      "Wool Crepe",
+      "Wool Tweed"
+    ],
+    "Knits": [
+      "Single Jersey",
+      "Interlock Knit",
+      "Rib Knit",
+      "Pique Knit",
+      "French Terry",
+      "Fleece Knit",
+      "Ottoman Knit",
+      "Scuba Knit"
+    ],
+    "Blends": [
+      "Cotton Polyester",
+      "Cotton Viscose",
+      "Cotton Linen",
+      "Polyester Viscose",
+      "Wool Polyester",
+      "Linen Cotton",
+      "Cotton Elastane",
+      "Polyester Elastane"
+    ],
+    "Technical Textiles": [
+      "Water Repellent Fabric",
+      "Antimicrobial Fabric",
+      "Fire Retardant Fabric",
+      "UV Resistant Fabric",
+      "Breathable Technical Fabric",
+      "Industrial Coated Fabric",
+      "Laminated Fabric"
+    ],
+    "Home Textiles": [
+      "Curtain Fabric",
+      "Upholstery Fabric",
+      "Cushion Fabric",
+      "Bedsheet Fabric",
+      "Table Linen",
+      "Towel Fabric",
+      "Kitchen Textile",
+      "Mattress Fabric"
+    ],
+    "Sustainable Textiles": [
+      "Recycled Polyester",
+      "Recycled Cotton",
+      "Organic Hemp",
+      "Bamboo Viscose",
+      "Tencel Lyocell",
+      "Recycled Denim",
+      "Organic Linen"
+    ],
+    "Functional Fabrics": [
+      "Moisture Wicking",
+      "Quick Dry",
+      "Four Way Stretch",
+      "Two Way Stretch",
+      "Wrinkle Resistant",
+      "Easy Care",
+      "Thermal Fabric"
+    ],
+    "Fashion Fabrics": [
+      "Jacquard Fabric",
+      "Printed Fabric",
+      "Embroidered Fabric",
+      "Lurex Fabric",
+      "Sequin Fabric",
+      "Velvet Fabric",
+      "Corduroy Fabric",
+      "Satin Fabric"
+    ],
+    "Industrial Fabrics": [
+      "Filter Fabric",
+      "Packaging Textile",
+      "Conveyor Textile",
+      "Protective Textile",
+      "Geotextile",
+      "Tarpaulin Fabric",
+      "Canvas Industrial"
+    ]
+  },
+  "image_pattern": "texverse-001.jpg ... texverse-479.jpg"
+}
