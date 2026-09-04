@@ -156,7 +156,7 @@ RESTful API architecture with role-protected endpoints.
 # 📁 Project Structure
 
 ```text
-TEXVERSE-Final/
+TEXVERSE/
 │
 ├── backend/
 │   ├── app/
@@ -167,25 +167,20 @@ TEXVERSE-Final/
 │   │   ├── schemas.py
 │   │   └── main.py
 │   │
-│   ├── requirements.txt
-│   └── .env
+│   └── requirements.txt
 │
 ├── public/
-│
 ├── src/
 │   ├── components/
 │   ├── pages/
 │   ├── services/
-│   ├── assets/
-│   └── ...
+│   └── assets/
 │
-├── .env
 ├── .gitignore
 ├── index.html
 ├── package.json
 ├── vite.config.js
 └── README.md
-```
 
 ---
 
@@ -194,8 +189,8 @@ TEXVERSE-Final/
 ## 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd TEXVERSE-Final
+ git clone https://github.com/BhanuStackDev/TEXVERSE.git
+cd TEXVERSE
 ```
 
 ## 2. Install frontend dependencies
