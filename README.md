@@ -181,7 +181,6 @@ TEXVERSE/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
 ---
 
 # ⚙️ Local Development
