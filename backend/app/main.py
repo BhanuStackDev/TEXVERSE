@@ -6,8 +6,10 @@ from fastapi.staticfiles import StaticFiles
 from sqlalchemy import inspect, text
 from sqlalchemy.orm import Session
 
-from app.database import Base, engine
 from app.config import settings
+from app.database import Base, engine
+from app.models import Product
+from app.catalog_seed import ensure_master_catalog
 
 from app.routers import (
     auth,
@@ -21,8 +23,6 @@ from app.routers import (
     notifications,
     payments,
 )
-
-from app.models import Product
 
 
 # ============================================================
@@ -52,7 +52,7 @@ CATALOG_UPLOADS_DIR.mkdir(
 
 
 # ============================================================
-# DATABASE SETUP + SAFE MIGRATION
+# DATABASE MIGRATION
 # ============================================================
 
 def migrate_database():
@@ -66,9 +66,12 @@ def migrate_database():
     Missing columns are added safely.
     """
 
-    Base.metadata.create_all(bind=engine)
+    Base.metadata.create_all(
+        bind=engine
+    )
 
     inspector = inspect(engine)
+
     table_names = inspector.get_table_names()
 
     # --------------------------------------------------------
@@ -76,14 +79,18 @@ def migrate_database():
     # --------------------------------------------------------
 
     if "users" in table_names:
+
         user_columns = {
             column["name"]
-            for column in inspector.get_columns("users")
+            for column in inspector.get_columns(
+                "users"
+            )
         }
 
-        # Existing installations may not have email_verified.
         if "email_verified" not in user_columns:
+
             with engine.begin() as connection:
+
                 connection.execute(
                     text(
                         """
@@ -94,12 +101,10 @@ def migrate_database():
                     )
                 )
 
-        # ----------------------------------------------------
-        # MULTILINGUAL FOUNDATION
-        # ----------------------------------------------------
-
         if "language" not in user_columns:
+
             with engine.begin() as connection:
+
                 connection.execute(
                     text(
                         """
@@ -129,13 +134,17 @@ def migrate_database():
     if "products" not in inspector.get_table_names():
         return
 
-    columns = {
+    product_columns = {
         column["name"]
-        for column in inspector.get_columns("products")
+        for column in inspector.get_columns(
+            "products"
+        )
     }
 
-    if "subcategory" not in columns:
+    if "subcategory" not in product_columns:
+
         with engine.begin() as connection:
+
             connection.execute(
                 text(
                     """
@@ -146,7 +155,7 @@ def migrate_database():
             )
 
     # --------------------------------------------------------
-    # KNOWN SUBCATEGORIES
+    # KNOWN LEGACY SUBCATEGORIES
     # --------------------------------------------------------
 
     known_subcategories = [
@@ -185,6 +194,7 @@ def migrate_database():
     with engine.begin() as connection:
 
         for item in known_subcategories:
+
             connection.execute(
                 text(
                     """
@@ -214,6 +224,7 @@ def migrate_database():
         )
 
 
+# Run migration before the application starts.
 migrate_database()
 
 
@@ -278,21 +289,20 @@ app.mount(
 
 
 # ============================================================
-# EXISTING CATALOG SAFETY
+# LEGACY SIX-PRODUCT FALLBACK
 # ============================================================
 
 def ensure_existing_catalog():
-    """
-    Create the six original demo products only when
-    the database contains no products.
 
-    Existing catalog/products are never deleted.
-    """
-
-    db = Session(bind=engine)
+    db = Session(
+        bind=engine
+    )
 
     try:
-        product_count = db.query(Product).count()
+
+        product_count = (
+            db.query(Product).count()
+        )
 
         if product_count > 0:
             return
@@ -379,6 +389,7 @@ def ensure_existing_catalog():
         ]
 
         for item in demo_products:
+
             db.add(
                 Product(
                     **item,
@@ -390,6 +401,7 @@ def ensure_existing_catalog():
         db.commit()
 
     finally:
+
         db.close()
 
 
@@ -397,25 +409,32 @@ ensure_existing_catalog()
 
 
 # ============================================================
-# CATALOG IMAGE REPAIR / MAPPING
+# MASTER 479-PRODUCT CATALOG
+# ============================================================
+
+ensure_master_catalog()
+
+
+# ============================================================
+# CATALOG IMAGE REPAIR
 # ============================================================
 
 def repair_catalog_images():
-    """
-    Connect existing catalog products to the existing
-    TEXVERSE catalog image files.
 
-    Existing non-empty image values are never overwritten.
-    Supplier-created products are untouched.
-    """
-
-    db = Session(bind=engine)
+    db = Session(
+        bind=engine
+    )
 
     try:
+
         products = (
             db.query(Product)
-            .filter(Product.supplier_id.is_(None))
-            .order_by(Product.id.asc())
+            .filter(
+                Product.supplier_id.is_(None)
+            )
+            .order_by(
+                Product.id.asc()
+            )
             .all()
         )
 
@@ -423,17 +442,27 @@ def repair_catalog_images():
 
         for product in products:
 
-            if product.image and product.image.strip():
+            if (
+                product.image
+                and product.image.strip()
+            ):
                 continue
 
-            image_filename = f"texverse-{product.id:03d}.jpg"
-            image_file = CATALOG_UPLOADS_DIR / image_filename
+            image_filename = (
+                f"texverse-{product.id:03d}.jpg"
+            )
+
+            image_file = (
+                CATALOG_UPLOADS_DIR
+                / image_filename
+            )
 
             if not image_file.is_file():
                 continue
 
             product.image = (
-                f"/uploads/products/catalog/{image_filename}"
+                "/uploads/products/catalog/"
+                + image_filename
             )
 
             updated_count += 1
@@ -442,18 +471,21 @@ def repair_catalog_images():
             db.commit()
 
         print(
-            f"[TEXVERSE] Catalog image repair complete. "
+            "[TEXVERSE] Catalog image repair complete. "
             f"Updated: {updated_count}"
         )
 
     except Exception as exc:
+
         db.rollback()
 
         print(
-            f"[TEXVERSE] Catalog image repair failed: {exc}"
+            "[TEXVERSE] Catalog image repair failed: "
+            f"{exc}"
         )
 
     finally:
+
         db.close()
 
 
@@ -461,11 +493,12 @@ repair_catalog_images()
 
 
 # ============================================================
-# BASIC SYSTEM ENDPOINTS
+# BASIC ENDPOINTS
 # ============================================================
 
 @app.get("/")
 def home():
+
     return {
         "status": "ok",
         "service": "TEXVERSE Marketplace API",
@@ -475,6 +508,7 @@ def home():
 
 @app.get("/health")
 def health():
+
     return {
         "status": "healthy",
         "service": "TEXVERSE API",
@@ -483,12 +517,25 @@ def health():
 
 @app.get("/uploads/health")
 def uploads_health():
+
     return {
         "status": "ok",
-        "uploads_directory": str(UPLOADS_DIR),
-        "products_directory": str(PRODUCT_UPLOADS_DIR),
-        "catalog_directory": str(CATALOG_UPLOADS_DIR),
-        "uploads_directory_exists": UPLOADS_DIR.exists(),
-        "products_directory_exists": PRODUCT_UPLOADS_DIR.exists(),
-        "catalog_directory_exists": CATALOG_UPLOADS_DIR.exists(),
+        "uploads_directory": str(
+            UPLOADS_DIR
+        ),
+        "products_directory": str(
+            PRODUCT_UPLOADS_DIR
+        ),
+        "catalog_directory": str(
+            CATALOG_UPLOADS_DIR
+        ),
+        "uploads_directory_exists": (
+            UPLOADS_DIR.exists()
+        ),
+        "products_directory_exists": (
+            PRODUCT_UPLOADS_DIR.exists()
+        ),
+        "catalog_directory_exists": (
+            CATALOG_UPLOADS_DIR.exists()
+        ),
     }
