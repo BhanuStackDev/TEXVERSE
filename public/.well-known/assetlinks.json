@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.texverse.marketplace",
+      "sha256_cert_fingerprints": [
+        "F2:16:53:F2:DC:20:34:D1:3D:6E:01:63:BA:3B:BA:34:0C:56:E6:3D:A9:81:6E:32:5B:2B:97:96:E9:8E:2E:00"
+      ]
+    }
+  }
+]

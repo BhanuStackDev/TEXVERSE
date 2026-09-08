@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- ROUNDED BLUE GRADIENT ICON BOX -->
+    <path
+        android:pathData="M128,48h256c44,0 80,36 80,80v256c0,44 -36,80 -80,80H128c-44,0 -80,-36 -80,-80V128C48,84 84,48 128,48z">
+
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="48"
+                android:endX="464"
+                android:endY="464"
+                android:type="linear">
+
+                <item
+                    android:offset="0.0"
+                    android:color="#00C6FF" />
+
+                <item
+                    android:offset="1.0"
+                    android:color="#0072FF" />
+
+            </gradient>
+        </aapt:attr>
+
+    </path>
+
+    <!-- T -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M110,180
+            H230
+            V215
+            H187.5
+            V330
+            H152.5
+            V215
+            H110
+            Z" />
+
+    <!-- X -->
+    <path
+        android:pathData="M245,180
+            L290,245
+            L335,180
+            H375
+            L310,265
+            L375,330
+            H335
+            L290,270
+            L245,330
+            H205
+            L270,265
+            L205,180
+            Z">
+
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="205"
+                android:startY="180"
+                android:endX="375"
+                android:endY="330"
+                android:type="linear">
+
+                <item
+                    android:offset="0.0"
+                    android:color="#FFFFFF" />
+
+                <item
+                    android:offset="1.0"
+                    android:color="#38BDF8" />
+
+            </gradient>
+        </aapt:attr>
+
+    </path>
+
+</vector>
