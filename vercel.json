@@ -15,7 +15,7 @@
 
   "rewrites": [
     {
-      "source": "/((?!\\.well-known/).*)",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
