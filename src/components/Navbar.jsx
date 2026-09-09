@@ -166,11 +166,11 @@ export default function Navbar() {
   }, []);
 
   // --------------------------------------------------
-  // OUTSIDE CLICK
+  // OUTSIDE CLICK / TOUCH
   // --------------------------------------------------
 
   useEffect(() => {
-    const handleOutsideClick = (
+    const handleOutsidePointer = (
       event
     ) => {
       const target =
@@ -195,15 +195,42 @@ export default function Navbar() {
       }
     };
 
+    const handleEscape = (event) => {
+      if (event.key === "Escape") {
+        setLanguageOpen(false);
+        setMobileLanguageOpen(false);
+        setMobileOpen(false);
+      }
+    };
+
+    /*
+     * pointerdown works for:
+     * - desktop mouse
+     * - mobile touch
+     * - Android WebView
+     *
+     * React onClick handlers remain completely normal.
+     * No synthetic click() is used.
+     */
     document.addEventListener(
-      "mousedown",
-      handleOutsideClick
+      "pointerdown",
+      handleOutsidePointer
+    );
+
+    document.addEventListener(
+      "keydown",
+      handleEscape
     );
 
     return () => {
       document.removeEventListener(
-        "mousedown",
-        handleOutsideClick
+        "pointerdown",
+        handleOutsidePointer
+      );
+
+      document.removeEventListener(
+        "keydown",
+        handleEscape
       );
     };
   }, []);
@@ -310,10 +337,24 @@ export default function Navbar() {
     );
   };
 
+  // --------------------------------------------------
+  // WEB + ANDROID TOUCH SAFETY
+  // --------------------------------------------------
+
+  const interactiveStyle = {
+    touchAction: "manipulation",
+    WebkitTapHighlightColor:
+      "transparent",
+  };
+
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-800/80 bg-slate-950/95 backdrop-blur-xl">
+    <header
+      className="relative z-9999 w-full border-b border-slate-800/80 bg-slate-950"
+      style={interactiveStyle}
+    >
       <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex min-h-18 items-center justify-between gap-4">
+
           {/* =================================================
               BRAND
           ================================================== */}
@@ -324,6 +365,7 @@ export default function Navbar() {
             aria-label={t(
               "navigation.home"
             )}
+            style={interactiveStyle}
           >
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-cyan-400/30 bg-cyan-400/10 text-sm font-black tracking-tight text-cyan-300 transition group-hover:border-cyan-300/50 group-hover:bg-cyan-400/15">
               TX
@@ -369,6 +411,9 @@ export default function Navbar() {
                         ? "bg-white/10 text-white"
                         : "text-slate-400 hover:bg-white/5 hover:text-white"
                     }`}
+                    style={
+                      interactiveStyle
+                    }
                   >
                     {getNavLabel(
                       item.key
@@ -384,6 +429,7 @@ export default function Navbar() {
           ================================================== */}
 
           <div className="hidden items-center gap-2 xl:flex">
+
             {/* LANGUAGE */}
 
             <div
@@ -405,6 +451,9 @@ export default function Navbar() {
                   );
                 }}
                 className="flex min-w-36.25 items-center justify-between gap-2 rounded-lg border border-slate-700 bg-slate-900 px-3 py-2 text-sm font-medium text-white shadow-sm transition hover:border-slate-500 hover:bg-slate-800"
+                style={
+                  interactiveStyle
+                }
                 aria-haspopup="listbox"
                 aria-expanded={
                   languageOpen
@@ -449,7 +498,7 @@ export default function Navbar() {
                   aria-label={t(
                     "common.language"
                   )}
-                  className="absolute right-0 z-100 mt-2 max-h-105 w-64 overflow-y-auto rounded-xl border border-slate-700 bg-slate-900 p-2 shadow-2xl shadow-black/50"
+                  className="absolute right-0 z-10000 mt-2 max-h-105 w-64 overflow-y-auto rounded-xl border border-slate-700 bg-slate-900 p-2 shadow-2xl shadow-black/50"
                 >
                   {languages.map(
                     (item) => {
@@ -477,6 +526,9 @@ export default function Navbar() {
                               ? "bg-cyan-400/10 text-cyan-300"
                               : "text-slate-200 hover:bg-white/5 hover:text-white"
                           }`}
+                          style={
+                            interactiveStyle
+                          }
                         >
                           <span className="flex min-w-0 items-center gap-3">
                             <span className="w-9 shrink-0 text-xs font-semibold uppercase text-slate-500">
@@ -519,6 +571,9 @@ export default function Navbar() {
             <Link
               to="/marketplace"
               className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-200 transition hover:border-cyan-400/40 hover:bg-cyan-400/5 hover:text-cyan-300"
+              style={
+                interactiveStyle
+              }
             >
               {t(
                 "common.aiSearch"
@@ -533,6 +588,9 @@ export default function Navbar() {
                 <Link
                   to="/cart"
                   className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-200 transition hover:border-slate-500 hover:bg-white/5 hover:text-white"
+                  style={
+                    interactiveStyle
+                  }
                 >
                   {t(
                     "common.cart"
@@ -546,6 +604,9 @@ export default function Navbar() {
               <Link
                 to={dashboard.path}
                 className="rounded-lg border border-cyan-400/30 bg-cyan-400/10 px-3 py-2 text-sm font-semibold text-cyan-300 transition hover:border-cyan-300/50 hover:bg-cyan-400/15"
+                style={
+                  interactiveStyle
+                }
               >
                 {t(
                   "common.openDashboard"
@@ -560,6 +621,9 @@ export default function Navbar() {
                 <Link
                   to="/login"
                   className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-300 transition hover:bg-white/5 hover:text-white"
+                  style={
+                    interactiveStyle
+                  }
                 >
                   {t(
                     "common.signIn"
@@ -569,6 +633,9 @@ export default function Navbar() {
                 <Link
                   to="/register"
                   className="rounded-lg border border-cyan-400/40 bg-cyan-400/10 px-4 py-2 text-sm font-bold text-cyan-300 shadow-sm transition hover:border-cyan-300 hover:bg-cyan-400 hover:text-slate-950"
+                  style={
+                    interactiveStyle
+                  }
                 >
                   {t(
                     "common.getStarted"
@@ -582,6 +649,9 @@ export default function Navbar() {
                   handleLogout
                 }
                 className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-300 transition hover:border-red-400/30 hover:bg-red-400/5 hover:text-red-300"
+                style={
+                  interactiveStyle
+                }
               >
                 {t(
                   "common.signOut"
@@ -595,6 +665,7 @@ export default function Navbar() {
           ================================================== */}
 
           <div className="flex items-center gap-2 xl:hidden">
+
             {/* MOBILE LANGUAGE */}
 
             <div
@@ -616,6 +687,9 @@ export default function Navbar() {
                   );
                 }}
                 className="flex h-10 items-center gap-2 rounded-lg border border-slate-700 bg-slate-900 px-3 text-sm font-semibold text-white transition hover:border-slate-500"
+                style={
+                  interactiveStyle
+                }
                 aria-haspopup="listbox"
                 aria-expanded={
                   mobileLanguageOpen
@@ -646,7 +720,7 @@ export default function Navbar() {
                 >
                   <path
                     fillRule="evenodd"
-                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25-4.5a.75.75 0 01-.02-1.06z"
+                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-.02 1.06z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -658,7 +732,7 @@ export default function Navbar() {
                   aria-label={t(
                     "common.language"
                   )}
-                  className="absolute right-0 top-12 z-100 max-h-[70vh] w-64 overflow-y-auto rounded-xl border border-slate-700 bg-slate-900 p-2 shadow-2xl shadow-black/50"
+                  className="absolute right-0 top-12 z-10000 max-h-[70vh] w-64 overflow-y-auto rounded-xl border border-slate-700 bg-slate-900 p-2 shadow-2xl shadow-black/50"
                 >
                   {languages.map(
                     (item) => {
@@ -686,6 +760,9 @@ export default function Navbar() {
                               ? "bg-cyan-400/10 text-cyan-300"
                               : "text-slate-200 hover:bg-white/5 hover:text-white"
                           }`}
+                          style={
+                            interactiveStyle
+                          }
                         >
                           <span className="flex min-w-0 items-center gap-3">
                             <span className="w-9 shrink-0 text-[11px] font-bold uppercase text-slate-500">
@@ -710,7 +787,7 @@ export default function Navbar() {
                             >
                               <path
                                 fillRule="evenodd"
-                                d="M16.704 5.29a1 1 0 010 1.42l-7.25 7.25a1 1 0 01-1.414 0l-3.75-3.75a1 1 0 111.414 0l3.043 3.044 6.543-6.544a1 1 0 011.414 0z"
+                                d="M16.704 5.29a1 1 0 010 1.42l-7.25 7.25a1 1 0 01-1.414 0l-3.75-3.75a1 1 0 111.414-1.42l3.043 3.044 6.543-6.544a1 1 0 011.414 0z"
                                 clipRule="evenodd"
                               />
                             </svg>
@@ -734,6 +811,9 @@ export default function Navbar() {
                 )
               }
               className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-700 bg-slate-900 text-slate-200 transition hover:border-slate-500 hover:text-white"
+              style={
+                interactiveStyle
+              }
               aria-label={t(
                 "navigation.toggleMenu"
               )}
@@ -763,7 +843,7 @@ export default function Navbar() {
                 >
                   <path
                     fillRule="evenodd"
-                    d="M3 5.25A.75.75 0 013.75 4.5h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 10zm0 4.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z"
+                    d="M3 5.25A.75.75 0 013.75 4.5h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 5.25zm0 4.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75A.75.75 0 013 10zm0 4.75a.75.75 0 01.75-.75h12.5a.75.75 0 010 1.5H3.75a.75.75 0 010 1.5H3.75A.75.75 0 013 14.75z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -806,6 +886,9 @@ export default function Navbar() {
                           ? "bg-white/10 text-white"
                           : "text-slate-300 hover:bg-white/5 hover:text-white"
                       }`}
+                      style={
+                        interactiveStyle
+                      }
                     >
                       {getNavLabel(
                         item.key
@@ -817,6 +900,7 @@ export default function Navbar() {
             </nav>
 
             <div className="mt-3 grid grid-cols-1 gap-2 sm:grid-cols-2">
+
               {/* AI SEARCH */}
 
               <Link
@@ -827,6 +911,9 @@ export default function Navbar() {
                   )
                 }
                 className="rounded-lg border border-slate-700 px-3 py-3 text-center text-sm font-semibold text-slate-200 hover:bg-white/5 hover:text-white"
+                style={
+                  interactiveStyle
+                }
               >
                 {t(
                   "common.aiSearch"
@@ -846,6 +933,9 @@ export default function Navbar() {
                       )
                     }
                     className="rounded-lg border border-slate-700 px-3 py-3 text-center text-sm font-semibold text-slate-200 hover:bg-white/5 hover:text-white"
+                    style={
+                      interactiveStyle
+                    }
                   >
                     {t(
                       "common.cart"
@@ -867,6 +957,9 @@ export default function Navbar() {
                       )
                     }
                     className="rounded-lg border border-cyan-400/30 bg-cyan-400/10 px-3 py-3 text-center text-sm font-semibold text-cyan-300"
+                    style={
+                      interactiveStyle
+                    }
                   >
                     {t(
                       "common.openDashboard"
@@ -886,6 +979,9 @@ export default function Navbar() {
                       )
                     }
                     className="rounded-lg border border-slate-700 px-3 py-3 text-center text-sm font-semibold text-slate-300 transition hover:bg-white/5 hover:text-white"
+                    style={
+                      interactiveStyle
+                    }
                   >
                     {t(
                       "common.signIn"
@@ -900,6 +996,9 @@ export default function Navbar() {
                       )
                     }
                     className="rounded-lg border border-cyan-400/40 bg-cyan-400/10 px-3 py-3 text-center text-sm font-bold text-cyan-300 transition hover:border-cyan-300 hover:bg-cyan-400 hover:text-slate-950"
+                    style={
+                      interactiveStyle
+                    }
                   >
                     {t(
                       "common.getStarted"
@@ -913,6 +1012,9 @@ export default function Navbar() {
                     handleLogout
                   }
                   className="rounded-lg border border-red-400/20 bg-red-400/5 px-3 py-3 text-center text-sm font-semibold text-red-300 transition hover:bg-red-400/10"
+                  style={
+                    interactiveStyle
+                  }
                 >
                   {t(
                     "common.signOut"
@@ -926,3 +1028,4 @@ export default function Navbar() {
     </header>
   );
 }
+
