@@ -1,18 +1,5 @@
 ﻿{
   "$schema": "https://openapi.vercel.sh/vercel.json",
-
-  "headers": [
-    {
-      "source": "/.well-known/assetlinks.json",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
-    }
-  ],
-
   "rewrites": [
     {
       "source": "/(.*)",
