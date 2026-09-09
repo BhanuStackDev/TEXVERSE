@@ -34,7 +34,7 @@ android {
 dependencies {
     implementation(platform("androidx.compose:compose-bom:2026.02.01"))
 
-    implementation("androidx.core:core-ktx:1.10.1")
+    implementation("androidx.core:core-ktx:1.19.0")
     implementation("androidx.activity:activity-compose:1.8.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
@@ -46,7 +46,8 @@ dependencies {
 
     implementation("androidx.browser:browser:1.10.0")
 
-    debugImplementation("androidx.compose.ui:ui-tooling")
+    implementation("androidx.core:core-splashscreen:1.2.0")
 
+    debugImplementation("androidx.compose.ui:ui-tooling")
     testImplementation("junit:junit:4.13.2")
 }
